@@ -1,6 +1,7 @@
 # filter
 Remove or select molecules with predefined substructures and descriptors
 
+## Predefined filters
 
 Name | Description | Reference 
 ---- | ----------- | ---------
@@ -11,12 +12,12 @@ Dundee | NTD Screening Library | Brenk et al. (2008)
 BMS    | HTS Deck Filters      | Pearce et al. (2006)
 Glaxo  | Hard Filters          | Hann et al. (1999)
 LINT   | Pfizer LINT Filters | Blake (2005)
-MLSMR  | NIH Molecular Libraries Small Molecule Repository Excluded Functionality Filters | Dandapani et al. (2012)
-Inpharmatica  | Unwanted Fragments | ChEMBL
+MLSMR  | NIH Molecular Libraries Small Molecule Repository <br>Excluded Functionality Filters | Dandapani et al. (2012)
+Inpharmatica | Unwanted Fragments | ChEMBL
 Toxicophore  | Toxicophores for Mutagenicity Prediction | Kazius et al. (2005)
 ALARM | Abott ALARM NMR Filters for Reactive Compounds | Huth et al. (2005)
 
-# References
+## References
 
 1. Huth JR, Mendoza R, Olejniczak ET, Johnson RW, Cothron DA, Liu Y, Lerner CG, Chen J, Hajduk PJ. ALARM NMR: a rapid and robust experimental method to detect reactive false positives in biochemical screens. J Am Chem Soc. 2005, 127, 217-24.
 
