@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SMARTPatterns>
+    <pattern active="true">
+        <SMART>[#6]-1(=[#6](-[$([#1]),$([#6](-[#1])-[#1]),$([#6]=[#8])])-[#16]-[#6](-[#7]-1-[$([#1]),$([#6]-[#1]),$([#6]:[#6])])=[#7;!R])-[$([#6](-[#1])-[#1]),$([#6]:[#6])]</SMART>
+        <name>thiaz_ene_A(128)</name>
+        <desc>thiaz_ene_A(128)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>n2(-[#6]:1:[!#1]:[#6]:[#6]:[#6]:[#6]:1)c(cc(c2-[#6;X4])-[#1])-[#6;X4]</SMART>
+        <name>pyrrole_A(118)</name>
+        <desc>pyrrole_A(118)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1:c:c(:c(:c:c:1)-[#8]-[#1])-[#8]-[#1]</SMART>
+        <name>catechol_A(92)</name>
+        <desc>catechol_A(92)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1(=[#6])-[#6](-[#7]=[#6]-[#16]-1)=[#8]</SMART>
+        <name>ene_five_het_B(90)</name>
+        <desc>ene_five_het_B(90)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1=[!#1]-[!#6&amp;!#1]-[#6](-[#6]-1=[!#6&amp;!#1;!R])=[#8]</SMART>
+        <name>imine_one_fives(89)</name>
+        <desc>imine_one_fives(89)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1(-[#6](-[#6]=[#6]-[!#6&amp;!#1]-1)=[#6])=[!#6&amp;!#1]</SMART>
+        <name>ene_five_het_C(85)</name>
+        <desc>ene_five_het_C(85)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[#7]-1-[#6](-[#1])(-[#1])-[#6](-[#1])(-[#1])-[#7](-[#6](-[#1])(-[#1])-[#6]-1(-[#1])-[#1])-[#7]=[#6](-[#1])-[#6]:[!#1]</SMART>
+        <name>hzone_pipzn(79)</name>
+        <desc>hzone_pipzn(79)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1-2:c(:c:c:c:c:1)-[#6](=[#8])-[#6;X4]-[#6]-2=[#8]</SMART>
+        <name>keto_keto_beta_A(68)</name>
+        <desc>keto_keto_beta_A(68)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>n1(-[#6])c(c(-[#1])c(c1-[#6]=[#7]-[#7])-[#1])-[#1]</SMART>
+        <name>hzone_pyrrol(64)</name>
+        <desc>hzone_pyrrol(64)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]=!@[#6](-[!#1])-@[#6](=!@[!#6&amp;!#1])-@[#6](=!@[#6])-[!#1]</SMART>
+        <name>ene_one_ene_A(57)</name>
+        <desc>ene_one_ene_A(57)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6](-[#6]#[#7])(-[#6]#[#7])-[#6](-[#7](-[#1])-[#1])=[#6]-[#6]#[#7]</SMART>
+        <name>cyano_ene_amine_A(56)</name>
+        <desc>cyano_ene_amine_A(56)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1-2:c(:c:c:c:c:1)-[#6](=[#8])-[#6](=[#6])-[#6]-2=[#8]</SMART>
+        <name>ene_five_one_A(55)</name>
+        <desc>ene_five_one_A(55)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1(=[!#1]-[!#1]=[!#1]-[#7](-[#6]-1=[#16])-[#1])-[#6]#[#7]</SMART>
+        <name>cyano_pyridone_A(54)</name>
+        <desc>cyano_pyridone_A(54)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1:c:c-2:c(:c:c:1)-[#6]-3-[#6](-[#6]-[#7]-2)-[#6]-[#6]=[#6]-3</SMART>
+        <name>anil_alk_ene(51)</name>
+        <desc>anil_alk_ene(51)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1:c:2:c(:c:c:c:1):n:c:3:c(:c:2-[#7]):c:c:c:c:3</SMART>
+        <name>amino_acridine_A(46)</name>
+        <desc>amino_acridine_A(46)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1(=[#6])-[#6](=[#8])-[#7]-[#7]-[#6]-1=[#8]</SMART>
+        <name>ene_five_het_D(46)</name>
+        <desc>ene_five_het_D(46)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7](-[#1])(-[#1])-c:1:c(:c(:c(:s:1)-[!#1])-[!#1])-[#6]=[#8]</SMART>
+        <name>thiophene_amino_Aa(45)</name>
+        <desc>thiophene_amino_Aa(45)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7]-[#6]=!@[#6]-2-[#6](=[#8])-c:1:c:c:c:c:c:1-[!#6&amp;!#1]-2</SMART>
+        <name>ene_five_het_E(44)</name>
+        <desc>ene_five_het_E(44)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1(:c(:c(:c(:c(:c:1-[#8]-[#1])-[F,Cl,Br,I])-[#1])-[F,Cl,Br,I])-[#1])-[#16](=[#8])(=[#8])-[#7]</SMART>
+        <name>sulfonamide_A(43)</name>
+        <desc>sulfonamide_A(43)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[#6](=[#16])-[#6]</SMART>
+        <name>thio_ketone(43)</name>
+        <desc>thio_ketone(43)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1:c:c(:c:c:c:1-[#8]-[#1])-[#7](-[#1])-[#16](=[#8])=[#8]</SMART>
+        <name>sulfonamide_B(41)</name>
+        <desc>sulfonamide_B(41)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1(:c(:c(:c(:c(:c:1-[#1])-[#1])-[$([#8]),$([#7]),$([#6](-[#1])-[#1])])-[#1])-[#1])-[#7](-[#1])-[#1]</SMART>
+        <name>anil_no_alk(40)</name>
+        <desc>anil_no_alk(40)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[$([#1]),$([#6](-[#1])-[#1]),$([#6]:[#6])]-c:1:c(:c(:c(:s:1)-[#7](-[#1])-[#6](=[#8])-[#6])-[#6](=[#8])-[#8])-[$([#6]:1:[#6]:[#6]:[#6]:[#6]:[#6]:1),$([#6]:1:[#16]:[#6]:[#6]:[#6]:1)]</SMART>
+        <name>thiophene_amino_Ab(40)</name>
+        <desc>thiophene_amino_Ab(40)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7+]:1(:[#6]:[#6]:[!#1]:c:2:c:1:c(:c(-[$([#1]),$([#7])]):c:c:2)-[#1])-[$([#6](-[#1])(-[#1])-[#1]),$([#8;X1]),$([#6](-[#1])(-[#1])-[#6](-[#1])=[#6](-[#1])-[#1]),$([#6](-[#1])(-[#1])-[#6](-[#1])(-[#1])-[#8]-[#1]),$([#6](-[#1])(-[#1])-[#6](=[#8])-[#6]),$([#6](-[#1])(-[#1])-[#6](=[#8])-[#7](-[#1])-[#6]:[#6]),$([#6](-[#1])(-[#1])-[#6](-[#1])(-[#1])-[#1])]</SMART>
+        <name>het_pyridiniums_A(39)</name>
+        <desc>het_pyridiniums_A(39)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1:c:c:c:c(:c:1-[#7](-[#1])-[!$([#6]=[#8])])-[#6](-[#6]:[#6])=[#8]</SMART>
+        <name>anthranil_one_A(38)</name>
+        <desc>anthranil_one_A(38)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7](-[#1])-[#7]=[#6](-[#6]#[#7])-[#6]=[!#6&amp;!#1;!R]</SMART>
+        <name>cyano_imine_A(37)</name>
+        <desc>cyano_imine_A(37)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7](-c:1:c:c:c:c:c:1)-[#16](=[#8])(=[#8])-[#6]:2:[#6]:[#6]:[#6]:[#6]:3:[#7]:[$([#8]),$([#16])]:[#7]:[#6]:2:3</SMART>
+        <name>diazox_sulfon_A(36)</name>
+        <desc>diazox_sulfon_A(36)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6](-[#1])(-[#1])-[#7](-[#6](-[#1])-[#1])-c:1:c(:c(:c(:c(:c:1-[#1])-[#1])-[#6](-[#1])=[#7]-[#7]-[$([#6](=[#8])-[#6](-[#1])(-[#1])-[#16]-[#6]:[#7]),$([#6](=[#8])-[#6](-[#1])(-[#1])-[!#1]:[!#1]:[#7]),$([#6](=[#8])-[#6]:[#6]-[#8]-[#1]),$([#6]:[#7]),$([#6](-[#1])(-[#1])-[#6](-[#1])-[#8]-[#1])])-[#1])-[#1]</SMART>
+        <name>hzone_anil_di_alk(35)</name>
+        <desc>hzone_anil_di_alk(35)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7]-1-[#6](=[#16])-[#16]-[#6;X4]-[#6]-1=[#8]</SMART>
+        <name>rhod_sat_A(33)</name>
+        <desc>rhod_sat_A(33)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7](-[#1])-[#7]=[#6]-[#6](-[$([#1]),$([#6])])=[#6](-[#6])-!@[$([#7]),$([#8]-[#1])]</SMART>
+        <name>hzone_enamin(30)</name>
+        <desc>hzone_enamin(30)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>n2(-[#6]:1:[!#1]:[#6]:[#6]:[#6]:[#6]:1)c(cc(c2-[#6]:[#6])-[#1])-[#6;X4]</SMART>
+        <name>pyrrole_B(29)</name>
+        <desc>pyrrole_B(29)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>s1ccc(c1)-[#8]-[#1]</SMART>
+        <name>thiophene_hydroxy(28)</name>
+        <desc>thiophene_hydroxy(28)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1(=[#6](-[#6](=[#8])-[#7]-[#6](=[#7]-1)-[!#6&amp;!#1])-[#6]#[#7])-[#6]</SMART>
+        <name>cyano_pyridone_B(27)</name>
+        <desc>cyano_pyridone_B(27)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1(-[#6](=[#8])-[#7]-[#6](=[#8])-[#7]-[#6]-1=[#8])=[#7]</SMART>
+        <name>imine_one_sixes(27)</name>
+        <desc>imine_one_sixes(27)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6](-[#1])(-[#1])-[#7]([#6]:[#6])~[#6][#6]=,:[#6]-[#6]~[#6][#7]</SMART>
+        <name>dyes5A(27)</name>
+        <desc>dyes5A(27)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:2:c:1:c:c:c:c-3:c:1:c(:c:c:2)-[#7]-[#6]=[#7]-3</SMART>
+        <name>naphth_amino_A(25)</name>
+        <desc>naphth_amino_A(25)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:2:c:1:c:c:c:c-3:c:1:c(:c:c:2)-[#7](-[#6;X4]-[#7]-3-[#1])-[#1]</SMART>
+        <name>naphth_amino_B(25)</name>
+        <desc>naphth_amino_B(25)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[#6](=[#8])-[#6](-[#1])=[#6](-[#7](-[#1])-[#6])-[#6](=[#8])-[#8]-[#6]</SMART>
+        <name>ene_one_ester(24)</name>
+        <desc>ene_one_ester(24)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#16]=[#6]-1-[#6]=,:[#6]-[!#6&amp;!#1]-[#6]=,:[#6]-1</SMART>
+        <name>thio_dibenzo(23)</name>
+        <desc>thio_dibenzo(23)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6](-[#6]#[#7])(-[#6]#[#7])-[#6](-[$([#6]#[#7]),$([#6]=[#7])])-[#6]#[#7]</SMART>
+        <name>cyano_cyano_A(23)</name>
+        <desc>cyano_cyano_A(23)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1:2:c(:c(:c(:c(:c:1:c(:c(:c(:c:2-[#1])-[#8]-[#1])-[#6](=[#8])-[#7](-[#1])-[#7]=[#6])-[#1])-[#1])-[#1])-[#1])-[#1]</SMART>
+        <name>hzone_acyl_naphthol(22)</name>
+        <desc>hzone_acyl_naphthol(22)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#8]=[#6]-c2c1nc(-[#6](-[#1])-[#1])cc(-[#8]-[#1])n1nc2</SMART>
+        <name>het_65_A(21)</name>
+        <desc>het_65_A(21)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>n:1:c(:n(:c(:c:1-c:2:c:c:c:c:c:2)-c:3:c:c:c:c:c:3)-[#1])-[#6]:[!#1]</SMART>
+        <name>imidazole_A(19)</name>
+        <desc>imidazole_A(19)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6](-[#6]#[#7])(-[#6]#[#7])=[#6]-c:1:c:c:c:c:c:1</SMART>
+        <name>ene_cyano_A(19)</name>
+        <desc>ene_cyano_A(19)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1(:c:c:c:c:c:1-[#7](-[#1])-[#7]=[#6])-[#6](=[#8])-[#8]-[#1]</SMART>
+        <name>anthranil_acid_A(19)</name>
+        <desc>anthranil_acid_A(19)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7+]([#6]:[#6])=,:[#6]-[#6](-[#1])=[#6]-[#7](-[#6;X4])-[#6]</SMART>
+        <name>dyes3A(19)</name>
+        <desc>dyes3A(19)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7](-[#1])(-[#1])-[#6]-1=[#6](-[#6]#[#7])-[#6](-[#1])(-[#6]:[#6])-[#6](=[#6](-[#7](-[#1])-[#1])-[#16]-1)-[#6]#[#7]</SMART>
+        <name>dhp_bis_amino_CN(19)</name>
+        <desc>dhp_bis_amino_CN(19)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7]~[#6]:1:[#7]:[#7]:[#6](:[$([#7]),$([#6]-[#1]),$([#6]-[#7]-[#1])]:[$([#7]),$([#6]-[#7])]:1)-[$([#7]-[#1]),$([#8]-[#6](-[#1])-[#1])]</SMART>
+        <name>het_6_tetrazine(18)</name>
+        <desc>het_6_tetrazine(18)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[#6]=[#6](-[F,Cl,Br,I])-[#6](=[#8])-[#6]</SMART>
+        <name>ene_one_hal(17)</name>
+        <desc>ene_one_hal(17)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6](-[#6]#[#7])(-[#6]#[#7])=[#7]-[#7](-[#1])-c:1:c:c:c:c:c:1</SMART>
+        <name>cyano_imine_B(17)</name>
+        <desc>cyano_imine_B(17)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-1(=[#6](-!@[#6](=[#8])-[#7]-[#6](-[#1])-[#1])-[#16]-[#6](-[#7]-1-[$([#6](-[#1])(-[#1])-[#6](-[#1])=[#6](-[#1])-[#1]),$([#6]:[#6])])=[#16])-[$([#7]-[#6](=[#8])-[#6]:[#6]),$([#7](-[#1])-[#1])]</SMART>
+        <name>thiaz_ene_B(17)</name>
+        <desc>thiaz_ene_B(17)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#16]-1-[#6](=[#8])-[#7]-[#6](=[#8])-[#6]-1=[#6](-[#1])-[$([#6]-[#35]),$([#6]:[#6](-[#1]):[#6](-[F,Cl,Br,I]):[#6]:[#6]-[F,Cl,Br,I]),$([#6]:[#6](-[#1]):[#6](-[#1]):[#6]-[#16]-[#6](-[#1])-[#1]),$([#6]:[#6]:[#6]:[#6]:[#6]:[#6]:[#6]:[#6]:[#6]:[#6]-[#8]-[#6](-[#1])-[#1]),$([#6]:1:[#6](-[#6](-[#1])-[#1]):[#7](-[#6](-[#1])-[#1]):[#6](-[#6](-[#1])-[#1]):[#6]:1)]</SMART>
+        <name>ene_rhod_B(16)</name>
+        <desc>ene_rhod_B(16)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#8]-1-[#6](-[#16]-c:2:c-1:c:c:c(:c:2)-[$([#7]),$([#8])])=[$([#8]),$([#16])]</SMART>
+        <name>thio_carbonate_A(15)</name>
+        <desc>thio_carbonate_A(15)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#7](-[#6](-[#1])-[#1])(-[#6](-[#1])-[#1])-c:1:c(:c(:c(:o:1)-[#6]=[#7]-[#7](-[#1])-[#6]=[!#6&amp;!#1])-[#1])-[#1]</SMART>
+        <name>anil_di_alk_furan_A(15)</name>
+        <desc>anil_di_alk_furan_A(15)</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>c:1(:c:c:c:c:c:1)-[#6](-[#1])=!@[#6]-3-[#6](=[#8])-c:2:c:c:c:c:c:2-[#16]-3</SMART>
+        <name>ene_five_het_F(15)</name>
+        <desc>ene_five_het_F(15)</desc>
+    </pattern>
+</SMARTPatterns>

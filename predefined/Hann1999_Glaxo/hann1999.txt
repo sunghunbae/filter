@@ -1,0 +1,139 @@
+# reactive functional groups
+
+R1 reactive alkyl halides [Br,Cl,I][CX4;CH,CH2]
+R2 acid halides [S,C](=[O,S])[F,Br,Cl,I]
+R3 carbazides O=CN=[N+]=[N-]
+R4 sulphate esters COS(=O)O[C,c]
+R5 sulphonates COS(=O)(=O)[C,c]
+R6 acid anhydrides C(=O)OC(=O)
+R7 peroxides OO
+R8 pentafluophenyl esters C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)
+R9 paranitrophenyl esters C(=O)Oc1ccc(N(N=O)=O)cc1
+R10 esters of HOBT C(=O)Onnn
+R11 isocynates and isothiocyanates N=C=[S,O]
+R12 triflates OS(=O)(=O)C(F)(F)F
+R13 lawesson's reagent and derivates P(=S)(S)S
+R14 phosphoramides NP(=O)(N)N
+R15 aromatic azides cN=[N+]=[N-]
+R16 beta carbonyl quaternary nitrogen C(=O)C[N+,n+]
+R17 acylhydrazide [N;R0][N;R0]C(=O)
+R18 quaternary C,Cl,I,P or S [C+,Cl+,I+,P+,S+]
+R19 phosphoranes C=P
+R20 chloramidines [Cl]C([C&R0])=N
+R21 nitroso [N&D2](=O)
+R22 P/S halides [P,S][Cl,Br,F,I]
+R23 carbodiimide N=C=N
+R24 isonitrile [N+]#[C-]
+R25 triacyloximes C(=O)N(C(C=O))OC(=O)
+R26 cyanohydrins N#CC[OH]
+R27 acyl cyanides N#CC(=O)
+R28 sulfonyl cyanides S(=O)(=O)C#N
+R29 cyanophosphonates P(OCC)(OCC)(=O)C#N
+R30 azocyanamides [N;R0]=[N;R0]C#N
+R31 azoalkanals [N;R0]=[N;R0]CC=O
+
+# unsuitable leads
+I1 aliphatic methylene chains 7 or more long [CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]
+I2 compounds with 4 or more acidic groups [C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH]
+I3 crown ethers [O;R1][C;R1][C;R1][O;R1][C;R1][C;R1][O;R1]
+I4 disulphides SS
+I5 thiols [SH]
+I6 epoxides, thioepoxides, aziridines C1[O,S,N]C1
+I7 2,4,5 trihydroxyphenyl c([OH])c([OH])c([OH])
+I8 2,3,4 trihydroxyphenyl c([OH])c([OH])cc([OH])
+I9 hydrazothiourea N=NC(=S)N
+I10 thiocyanate SC#N
+I11 benzylic quaternary nitrogen cC[N+]
+I12 thioesters C[O,S;R0][C;R0](=S)
+I13 cyanamides N[CH2]C#N
+I14 four membered lactones C1(=O)OCC1
+I15 di and triphosphates P(=O)([OH])OP(=O)[OH]
+I16 betalactams N1CCC1=O
+
+# unsuitable natural products
+NP1 quinones O=C1[#6]~[#6]C(=O)[#6]~[#6]1
+NP2 polyenes C=CC=CC=CC=C
+NP3 saponin derivates O1CCCCC1OC2CCC3CCCCC3C2
+NP4 cytochalasin derivates O=C1NCC2CCCCC21
+NP5 cycloheximide derivates O=C1CCCC(N1)=O
+NP6 monensin derivates O1CCCCC1C2CCCO2
+NP7 cyanidin derivates [OH]c1cc([OH])cc2=[O+]C(=C([OH])Cc21)c3cc([OH])c([OH])cc3
+NP8 squalestatin derivates C12OCCC(O1)CC2
+
+# acids
+A1 [OH1][P,C,S](=O)
+A2 [NH1]([P,S]=O)([P,S]=O)
+A3 [nH]1cnoc1=O
+A4 [OH1]C1=NC=NO1
+A5 [NH1]1C=NOS1=O
+A6 [OH1]C1=NC(=O)CC1=O
+A7 [OH1]C1NC(=O)C(=O)C1
+A8 [nH1]1ncoc1=O
+A9 [OH1]C1=NN=CO1
+A10 [nH1]1[nH]cnc1=O
+A11 [OH1]C1=N[NH1]C=N1
+A12 [OH1]C1=NOC=C1
+A13 [nH1]1occc1=O
+A14 [OH1]c1oncc1
+A15 [nH1]1ccc(=O)o1
+A16 tetrazole [nH1]nnn
+A17 [nH1](n)nn
+A18 [OH1]C1=NC(=O)NO1
+A19 [OH1]C1=NC(=O)ON1
+A20 [nH1]1cnnc1C(F)(F)F
+A21 [nH1]1cnc(n1)C(F)(F)F
+A22 [nH1]1C(=O)CC(=O)O1
+A23 [OH1]C1=CC(=O)NO1
+A24 [OH1]C1=CC(=O)ON1
+A25 benzosulphimide [NH1]1C(=O)c2ccccc2S1(=O)=O
+A26 [OH1]C1=NS(=O)(=O)c2ccccc21
+A27 [OH1]C1=NC(=O)c2cccc21
+A28 [OH1]C1=COC=CC1=O
+A29 [OH1]C1=NSN=C1
+A30 hydroxamic acid [OH1]NC(=O)
+A31 trifluoromethyl sulphonamide [NH]S(=O)(=O)C(F)(F)F
+A32 aryl sulphonamide [NH](c)S(=O)=O
+A33 phenol [OH1]c1c[c,n]ccc1
+
+# base
+B1 primary amine [NH2][CX4]
+B2 secondary amine [NH]([CX4])[CX4]
+B3 tertiary amine [NX3]([CX4])([CX4])[CX4]
+B4sub [C,c](=N)N
+B5exc [C,c](=N)N[C,S](=O)
+B6 [$B4sub;!$B5exc] [$([C,c](=N)N);!$([C,c](=N)N[C,S](=O))]
+B7exc n(:c)(:c):a
+B7 [nH0;!$(n-C);!$B7exc]1ccccc1 [nH0;!$(n-C);!$(n(:c)(:c):a)]1ccccc1
+B8exc [N,n;+1]
+B9 [$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]
+#B7-B9 are heterocyclic bases e.g. pyridines
+base [$B1,$B2,$B3,$B6,$B7,$B9;!$B8exc] [$([NH2][CX4]),$([NH]([CX4])[CX4]),$([NX3]([CX4])([CX4])[CX4]),$([$([C,c](=N)N);!$([C,c](=N)N[C,S](=O))]),$([nH0;!$(n-C);!$(n(:c)(:c):a)]1ccccc1),$([$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]);!$([N,n;+1])]
+
+# electrophile
+E1 alkyl and aryl ketones and aldehydes [C;H1](=[O,S])[C,c]
+E2 e.g. carboxylic esters [C,P;H1](=[O,S])[O,S]
+E3 e.g. carbonates [C](=O)([C,c,O,S])[C,c,O,S]
+E4exc C(=O)[OH1]
+E5exc C(=O)[SH1]
+E6 C(=[O,S])(N)Oc
+E7 e.g., aryl carbamates C1(=O)NS(=O)(=O)[C,c]=,:[C,c]1
+E8sub P(=O)[O,S]
+E9exc P[OH1]
+E10 [$E8sub;!$E9exc] [$(P(=O)[O,S]);!$(P[OH1])]
+E11 c(=O)(~c)~c
+E12exc [$(c1(=O)ccn([C,c])cc1),$(c1(=O)n([C,c])cccc1)]
+E12 [$E11;!$E12exc] [$(c(=O)(~c)~c);!$([$(c1(=O)ccn([C,c])cc1),$(c1(=O)n([C,c])cccc1)])]
+E13 imides C(=O)-N-C=O
+electrophile [$E1,$E2,$E3,$E6,$E7,$E10,$E12,$E13;!$E4exc;!$E5exc] [$([C;H1](=[O,S])[C,c]),$([C,P;H1](=[O,S])[O,S]),$([C](=O)([C,c,O,S])[C,c,O,S]),$(C(=[O,S])(N)Oc),$(C1(=O)NS(=O)(=O)[C,c]=,:[C,c]1),$([$(P(=O)[O,S]);!$(P[OH1])]),$([$(c(=O)(~c)~c);!$([$(c1(=O)ccn([C,c])cc1),$(c1(=O)n([C,c])cccc1)])]),$(C(=O)-N-C=O);!$(C(=O)[OH1]);!$(C(=O)[SH1])]
+
+# nucleophiles
+N1 primary amines [NH2][CX4]
+N2 secondary amines [NH]([CX4])[CX4]
+N4exc N=[O,C,N,S]
+N5exc N-[C,c,N]=[C,c,N,n,O,S]
+N6 [OH1][C,c,N;!$(C=O)]
+N7exc [OH1]C=C
+N8exc [OH1]NC=[O,S]
+N9 [$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]
+#N4-N9 includes alcohols, hydroxylamines but excludes e.g. carboxylic acids
+nucleophile [$N1,$N2,$N6,$N9;!$N4exc;!$N5exc;!$N7exc;!$N8exc] [$([NH2][CX4]),$([NH]([CX4])[CX4]),$([OH1][C,c,N;!$(C=O)]),$([$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]);!$(N=[O,C,N,S]);!$(N-[C,c,N]=[C,c,N,n,O,S]);!$([OH1]C=C);!$([OH1]NC=[O,S])]

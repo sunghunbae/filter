@@ -1,0 +1,7 @@
+Name,SMARTS,Min,Max
+MolWt,,150.0,500.0
+logP,,,5.0
+rb,,,7.0
+TPSA,,,150.0
+LipinskiHBD,,,5.0
+LipinskiHBA,,,10.0

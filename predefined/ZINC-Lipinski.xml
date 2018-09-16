@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<ZINC-Lipinski>
+  <!--definition from zinc.docking.org -->
+  <!--Lipinski, J Pharmacol Toxicol Methods. 2000 Jul-Aug;44(1):235-49.-->
+  <descriptor name="MolWt">
+    <min>150</min>
+    <max>500</max>
+  </descriptor>
+  <descriptor name="logP">
+    <max>5.0</max>
+  </descriptor>
+  <descriptor name="rb">
+    <max>7</max>
+  </descriptor>
+  <descriptor name="TPSA">
+    <max>150</max>
+  </descriptor>
+  <descriptor name="LipinskiHBD">
+    <max>5</max>
+  </descriptor>
+  <descriptor name="LipinskiHBA">
+    <max>10</max>
+  </descriptor>
+</ZINC-Lipinski>

@@ -1,0 +1,61 @@
+# reactive functional groups
+
+R1 reactive alkyl halides [Br,Cl,I][CX4;CH,CH2]
+R2 acid halides [S,C](=[O,S])[F,Br,Cl,I]
+R3 carbazides O=CN=[N+]=[N-]
+R4 sulphate esters COS(=O)O[C,c]
+R5 sulphonates COS(=O)(=O)[C,c]
+R6 acid anhydrides C(=O)OC(=O)
+R7 peroxides OO
+R8 pentafluophenyl esters C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)
+R9 paranitrophenyl esters C(=O)Oc1ccc(N(N=O)=O)cc1
+R10 esters of HOBT C(=O)Onnn
+R11 isocynates and isothiocyanates N=C=[S,O]
+R12 triflates OS(=O)(=O)C(F)(F)F
+R13 lawesson's reagent and derivates P(=S)(S)S
+R14 phosphoramides NP(=O)(N)N
+R15 aromatic azides cN=[N+]=[N-]
+R16 beta carbonyl quaternary nitrogen C(=O)C[N+,n+]
+R17 acylhydrazide [N;R0][N;R0]C(=O)
+R18 quaternary C,Cl,I,P or S [C+,Cl+,I+,P+,S+]
+R19 phosphoranes C=P
+R20 chloramidines [Cl]C([C&R0])=N
+R21 nitroso [N&D2](=O)
+R22 P/S halides [P,S][Cl,Br,F,I]
+R23 carbodiimide N=C=N
+R24 isonitrile [N+]#[C-]
+R25 triacyloximes C(=O)N(C(C=O))OC(=O)
+R26 cyanohydrins N#CC[OH]
+R27 acyl cyanides N#CC(=O)
+R28 sulfonyl cyanides S(=O)(=O)C#N
+R29 cyanophosphonates P(OCC)(OCC)(=O)C#N
+R30 azocyanamides [N;R0]=[N;R0]C#N
+R31 azoalkanals [N;R0]=[N;R0]CC=O
+
+# unsuitable leads
+I1 aliphatic methylene chains 7 or more long [CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]
+I2 compounds with 4 or more acidic groups [C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH]
+I3 crown ethers [O;R1][C;R1][C;R1][O;R1][C;R1][C;R1][O;R1]
+I4 disulphides SS
+I5 thiols [SH]
+I6 epoxides, thioepoxides, aziridines C1[O,S,N]C1
+I7 2,4,5 trihydroxyphenyl c([OH])c([OH])c([OH])
+I8 2,3,4 trihydroxyphenyl c([OH])c([OH])cc([OH])
+I9 hydrazothiourea N=NC(=S)N
+I10 thiocyanate SC#N
+I11 benzylic quaternary nitrogen cC[N+]
+I12 thioesters C[O,S;R0][C;R0](=S)
+I13 cyanamides N[CH2]C#N
+I14 four membered lactones C1(=O)OCC1
+I15 di and triphosphates P(=O)([OH])OP(=O)[OH]
+I16 betalactams N1CCC1=O
+
+# unsuitable natural products
+NP1 quinones O=C1[#6]~[#6]C(=O)[#6]~[#6]1
+NP2 polyenes C=CC=CC=CC=C
+NP3 saponin derivates O1CCCCC1OC2CCC3CCCCC3C2
+NP4 cytochalasin derivates O=C1NCC2CCCCC21
+NP5 cycloheximide derivates O=C1CCCC(N1)=O
+NP6 monensin derivates O1CCCCC1C2CCCO2
+NP7 cyanidin derivates [OH]c1cc([OH])cc2=[O+]C(=C([OH])Cc21)c3cc([OH])c([OH])cc3
+NP8 squalestatin derivates C12OCCC(O1)CC2

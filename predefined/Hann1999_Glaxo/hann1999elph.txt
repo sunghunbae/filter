@@ -1,0 +1,16 @@
+# electrophile
+E1 alkyl and aryl ketones and aldehydes [C;H1](=[O,S])[C,c]
+E2 e.g. carboxylic esters [C,P;H1](=[O,S])[O,S]
+E3 e.g. carbonates [C](=O)([C,c,O,S])[C,c,O,S]
+E4exc C(=O)[OH1]
+E5exc C(=O)[SH1]
+E6 C(=[O,S])(N)Oc
+E7 e.g., aryl carbamates C1(=O)NS(=O)(=O)[C,c]=,:[C,c]1
+E8sub P(=O)[O,S]
+E9exc P[OH1]
+E10 [$E8sub;!$E9exc] [$(P(=O)[O,S]);!$(P[OH1])]
+E11 c(=O)(~c)~c
+E12exc [$(c1(=O)ccn([C,c])cc1),$(c1(=O)n([C,c])cccc1)]
+E12 [$E11;!$E12exc] [$(c(=O)(~c)~c);!$([$(c1(=O)ccn([C,c])cc1),$(c1(=O)n([C,c])cccc1)])]
+E13 imides C(=O)-N-C=O
+electrophile [$E1,$E2,$E3,$E6,$E7,$E10,$E12,$E13;!$E4exc;!$E5exc] [$([C;H1](=[O,S])[C,c]),$([C,P;H1](=[O,S])[O,S]),$([C](=O)([C,c,O,S])[C,c,O,S]),$(C(=[O,S])(N)Oc),$(C1(=O)NS(=O)(=O)[C,c]=,:[C,c]1),$([$(P(=O)[O,S]);!$(P[OH1])]),$([$(c(=O)(~c)~c);!$([$(c1(=O)ccn([C,c])cc1),$(c1(=O)n([C,c])cccc1)])]),$(C(=O)-N-C=O);!$(C(=O)[OH1]);!$(C(=O)[SH1])]

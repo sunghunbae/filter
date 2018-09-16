@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<ZINC-lead-like>
+  <!--definition from zinc.docking.org -->
+  <!--Teague et al. (1999) Angew Chem Int Ed Engl. 38(24):3743-3748.-->
+  <descriptor name="MolWt">
+    <min>250</min>
+    <max>350</max>
+  </descriptor>
+  <descriptor name="logP">
+    <max>3.5</max>
+  </descriptor>
+  <descriptor name="rb">
+    <max>7</max>
+  </descriptor>
+</ZINC-lead-like>

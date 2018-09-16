@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<Hann1999>
+  <group name="A1">
+    <SMARTS>[OH1][P,C,S](=O)</SMARTS>
+  </group>
+  <group name="A2">
+    <SMARTS>[NH1]([P,S]=O)([P,S]=O)</SMARTS>
+  </group>
+  <group name="A3">
+    <SMARTS>[nH]1cnoc1=O</SMARTS>
+  </group>
+  <group name="A4">
+    <SMARTS>[OH1]C1=NC=NO1</SMARTS>
+  </group>
+  <group name="A5">
+    <SMARTS>[NH1]1C=NOS1=O</SMARTS>
+  </group>
+  <group name="A6">
+    <SMARTS>[OH1]C1=NC(=O)CC1=O</SMARTS>
+  </group>
+  <group name="A7">
+    <SMARTS>[OH1]C1NC(=O)C(=O)C1</SMARTS>
+  </group>
+  <group name="A8">
+    <SMARTS>[nH1]1ncoc1=O</SMARTS>
+  </group>
+  <group name="A9">
+    <SMARTS>[OH1]C1=NN=CO1</SMARTS>
+  </group>
+  <group name="A10">
+    <SMARTS>[nH1]1[nH]cnc1=O</SMARTS>
+  </group>
+  <group name="A11">
+    <SMARTS>[OH1]C1=N[NH1]C=N1</SMARTS>
+  </group>
+  <group name="A12">
+    <SMARTS>[OH1]C1=NOC=C1</SMARTS>
+  </group>
+  <group name="A13">
+    <SMARTS>[nH1]1occc1=O</SMARTS>
+  </group>
+  <group name="A14">
+    <SMARTS>[OH1]c1oncc1</SMARTS>
+  </group>
+  <group name="A15">
+    <SMARTS>[nH1]1ccc(=O)o1</SMARTS>
+  </group>
+  <group name="A16 tetrazole">
+    <SMARTS>[nH1]nnn</SMARTS>
+  </group>
+  <group name="A17">
+    <SMARTS>[nH1](n)nn</SMARTS>
+  </group>
+  <group name="A18">
+    <SMARTS>[OH1]C1=NC(=O)NO1</SMARTS>
+  </group>
+  <group name="A19">
+    <SMARTS>[OH1]C1=NC(=O)ON1</SMARTS>
+  </group>
+  <group name="A20">
+    <SMARTS>[nH1]1cnnc1C(F)(F)F</SMARTS>
+  </group>
+  <group name="A21">
+    <SMARTS>[nH1]1cnc(n1)C(F)(F)F</SMARTS>
+  </group>
+  <group name="A22">
+    <SMARTS>[nH1]1C(=O)CC(=O)O1</SMARTS>
+  </group>
+  <group name="A23">
+    <SMARTS>[OH1]C1=CC(=O)NO1</SMARTS>
+  </group>
+  <group name="A24">
+    <SMARTS>[OH1]C1=CC(=O)ON1</SMARTS>
+  </group>
+  <group name="A25 benzosulphimide">
+    <SMARTS>[NH1]1C(=O)c2ccccc2S1(=O)=O</SMARTS>
+  </group>
+  <group name="A26">
+    <SMARTS>[OH1]C1=NS(=O)(=O)c2ccccc21</SMARTS>
+  </group>
+  <group name="A27">
+    <SMARTS>[OH1]C1=NC(=O)c2cccc21</SMARTS>
+  </group>
+  <group name="A28">
+    <SMARTS>[OH1]C1=COC=CC1=O</SMARTS>
+  </group>
+  <group name="A29">
+    <SMARTS>[OH1]C1=NSN=C1</SMARTS>
+  </group>
+  <group name="A30 hydroxamic acid">
+    <SMARTS>[OH1]NC(=O)</SMARTS>
+  </group>
+  <group name="A31 trifluoromethyl sulphonamide">
+    <SMARTS>[NH]S(=O)(=O)C(F)(F)F</SMARTS>
+  </group>
+  <group name="A32 aryl sulphonamide">
+    <SMARTS>[NH](c)S(=O)=O</SMARTS>
+  </group>
+  <group name="A33 phenol">
+    <SMARTS>[OH1]c1c[c,n]ccc1</SMARTS>
+  </group>
+</Hann1999>

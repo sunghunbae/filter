@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SMARTPatterns>
+    <pattern active="true">
+        <SMART>[F,Cl,Br,I]-[SX4](=[OX1])(=[OX1])-[#6]</SMART>
+        <name>sulfonyl-alide</name>
+        <desc>sulfonyl-alide</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[F,Cl,Br,I]-[CX3](=[OX1])-[#6]</SMART>
+        <name>acyl-halide</name>
+        <desc>acyl-halide</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[F,Cl,Br,I]-[CX4H2]-[#6]</SMART>
+        <name>alkyl-halide</name>
+        <desc>alkyl-halide</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[F,Cl,Br,I]-c1ncccn1</SMART>
+        <name>halopyrimidine</name>
+        <desc>halopyrimidine</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX3](=[OX1])-[OX2]-[CX3](=O)-[#6]</SMART>
+        <name>anhydride</name>
+        <desc>anhydride</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX3](=[OX1])-[CX3](=[OX1])-[#6]</SMART>
+        <name>1,2-dicarbonyl</name>
+        <desc>1,2-dicarbonyl</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[F,Cl,Br,I]-[CX4]([F,Cl,Br,I])([F,Cl,Br,I])-[CX3](=[OX1])-[CX4H2]-[#6]</SMART>
+        <name>perhalo-ketone</name>
+        <desc>perhalo-ketone</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[CH3]-[CX3](=[OX1])([CH2])-[#6]</SMART>
+        <name>aliphatic ketone</name>
+        <desc>aliphatic ketone</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX4]1-[OX2]-[CX4]1</SMART>
+        <name>epoxide</name>
+        <desc>epoxide</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX4]1-[NX3](-[#6])-[CX4]1-[#6]</SMART>
+        <name>aziridine</name>
+        <desc>aziridine</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX4H2]-[CX3](=[OX1])-[OX2]-[#6]</SMART>
+        <name>aliphatic ester</name>
+        <desc>aliphatic ester</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX4H2]-[CX3](=[OX1])-[SX2]-[#6]</SMART>
+        <name>aliphatic thioester</name>
+        <desc>aliphatic thioester</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX4H2]-[SX4](=[OX1])(=[OX1])-[OX2]-[#6]</SMART>
+        <name>sulphonate ester</name>
+        <desc>sulphonate ester</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX4H2]-[PX4](=[OX1])(-O)-[OX2]-[#6]</SMART>
+        <name>phosphonate ester</name>
+        <desc>phosphonate ester</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[CX4H2]-[CX3](=[NX2]-[#6])-[#6]</SMART>
+        <name>imine</name>
+        <desc>imine</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[CX3H1](=[OX1])-[#6]</SMART>
+        <name>aldehyde</name>
+        <desc>aldehyde</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-[C](-[#1])=[C](-[#1,C])-[CX3](=O)-[#6]</SMART>
+        <name>Michael acceptor</name>
+        <desc>Michael acceptor</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-[CX4H1](-[F,Cl,Br,I])-[CX4H2]-[CX3](=O)-[#6]</SMART>
+        <name>b-heterosubstitued carbonyl</name>
+        <desc>b-heterosubstitued carbonyl</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[#6]-[#7,#8,#16;X2]-[#7,#8,#16;X2]-[#6]</SMART>
+        <name>heteroatom-heteroatom single bonds</name>
+        <desc>heteroatom-heteroatom single bonds</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[$([#16X4](=[OX1])(=[OX1])-[C](-[#1,C])=[C](-[#1,C])),$([#16X4+2]([OX1-])([OX1-])-[C](-[#1,C])=[C](-[#1,C]))]</SMART>
+        <name>vinyl sulfone</name>
+        <desc>vinyl sulfone</desc>
+    </pattern>
+</SMARTPatterns>
+

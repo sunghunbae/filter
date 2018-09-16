@@ -1,0 +1,6 @@
+Name,SMARTS,Min,Max
+MolWt,,120.0,250.0
+logP,,,2.5
+HAC,,9.0,18.0
+HBA,,,7.0
+HBD,,,4.0

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Hann1999>
+  <group name="Nucleophile">
+    <SMARTS>[$([NH2][CX4]),$([NH]([CX4])[CX4]),$([OH1][C,c,N;!$(C=O)]),$([$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]);!$(N=[O,C,N,S]);!$(N-[C,c,N]=[C,c,N,n,O,S]);!$([OH1]C=C);!$([OH1]NC=[O,S])]</SMARTS>
+  </group>
+</Hann1999>

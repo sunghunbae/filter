@@ -1,0 +1,34 @@
+# acids
+A1 [OH1][P,C,S](=O)
+A2 [NH1]([P,S]=O)([P,S]=O)
+A3 [nH]1cnoc1=O
+A4 [OH1]C1=NC=NO1
+A5 [NH1]1C=NOS1=O
+A6 [OH1]C1=NC(=O)CC1=O
+A7 [OH1]C1NC(=O)C(=O)C1
+A8 [nH1]1ncoc1=O
+A9 [OH1]C1=NN=CO1
+A10 [nH1]1[nH]cnc1=O
+A11 [OH1]C1=N[NH1]C=N1
+A12 [OH1]C1=NOC=C1
+A13 [nH1]1occc1=O
+A14 [OH1]c1oncc1
+A15 [nH1]1ccc(=O)o1
+A16 tetrazole [nH1]nnn
+A17 [nH1](n)nn
+A18 [OH1]C1=NC(=O)NO1
+A19 [OH1]C1=NC(=O)ON1
+A20 [nH1]1cnnc1C(F)(F)F
+A21 [nH1]1cnc(n1)C(F)(F)F
+A22 [nH1]1C(=O)CC(=O)O1
+A23 [OH1]C1=CC(=O)NO1
+A24 [OH1]C1=CC(=O)ON1
+A25 benzosulphimide [NH1]1C(=O)c2ccccc2S1(=O)=O
+A26 [OH1]C1=NS(=O)(=O)c2ccccc21
+A27 [OH1]C1=NC(=O)c2cccc21
+A28 [OH1]C1=COC=CC1=O
+A29 [OH1]C1=NSN=C1
+A30 hydroxamic acid [OH1]NC(=O)
+A31 trifluoromethyl sulphonamide [NH]S(=O)(=O)C(F)(F)F
+A32 aryl sulphonamide [NH](c)S(=O)=O
+A33 phenol [OH1]c1c[c,n]ccc1

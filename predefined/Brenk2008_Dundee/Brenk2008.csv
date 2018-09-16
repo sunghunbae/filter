@@ -1,0 +1,106 @@
+Description,SMARTS
+(1) more than two ester groups,"C(=O)O[C,H1].C(=O)O[C,H1].C(=O)O[C,H1]"
+(2) 2-halo pyridine,"n1c([F,Cl,Br,I])cccc1"
+(3) acid halide,"C(=O)[Cl,Br,I,F]"
+(4) acyclic C=C-O,C=[C!r]O
+(5) acyl cyanide,N#CC(=O)
+(6) acyl hydrazine,C(=O)N[NH2]
+(7) aldehyde,[CH1](=O)
+(8) Aliphatic long chain,[R0;D2][R0;D2][R0;D2][R0;D2]
+(9) alkyl halide,"[CX4][Cl,Br,I]"
+(10) amidotetrazole,c1nnnn1C=O
+(11) aniline,c1cc([NH2])ccc1
+(12) azepane,[CH2R2]1N[CH2R2][CH2R2][CH2R2][CH2R2][CH2R2]1
+(13) Azido group,N=[N+]=[N-]
+(14) Azo group,N#N
+(15) azocane,[CH2R2]1N[CH2R2][CH2R2][CH2R2][CH2R2][CH2R2][CH2R2]1
+(16) benzidine,"[cR2]1[cR2][cR2]([Nv3X3,Nv4X4])[cR2][cR2][cR2]1[cR2]2[cR2][cR2][cR2]([Nv3X3,Nv4X4])[cR2][cR2]2"
+(17) beta-keto/anhydride,"[C,c](=O)[CX4,CR0X3,O][C,c](=O)"
+(18) biotin analogue,C12C(NC(N1)=O)CSC2
+(19) Carbo cation/anion,"[C+,c+,C-,c-]"
+(20) catechol,"c1c([OH])c([OH,NH2,NH])ccc1"
+(21) charged oxygen or sulfur atoms,"[O+,o+,S+,s+]"
+(22) chinone,"C1(=[O,N])C=CC(=[O,N])C=C1"
+(23) chinone,"C1(=[O,N])C(=[O,N])C=CC=C1"
+(24) conjugated nitrile group,C=[C!r]C#N
+(25) crown ether,"[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]"
+(26) cumarine,c1ccc2c(c1)ccc(=O)o2
+(27) cyanamide,N[CH2]C#N
+(28) cyanate / aminonitrile / thiocyanate,"[N,O,S]C#N"
+(29) cyanohydrins,N#CC[OH]
+(30) cycloheptane,[CR2]1[CR2][CR2][CR2][CR2][CR2][CR2]1
+(31) cycloheptane,[CR2]1[CR2][CR2]cc[CR2][CR2]1
+(32) cyclooctane,[CR2]1[CR2][CR2][CR2][CR2][CR2][CR2][CR2]1
+(33) cyclooctane,[CR2]1[CR2][CR2]cc[CR2][CR2][CR2]1
+(34) diaminobenzene,"[cR2]1[cR2]c([N+0X3R0,nX3R0])c([N+0X3R0,nX3R0])[cR2][cR2]1"
+(35) diaminobenzene,"[cR2]1[cR2]c([N+0X3R0,nX3R0])[cR2]c([N+0X3R0,nX3R0])[cR2]1"
+(36) diaminobenzene,"[cR2]1[cR2]c([N+0X3R0,nX3R0])[cR2][cR2]c1([N+0X3R0,nX3R0])"
+(37) diazo group,[N!R]=[N!R]
+(38) diketo group,"[C,c](=O)[C,c](=O)"
+(39) disulphide,SS
+(40) enamine,[CX2R0][NX3R0]
+(41) ester of HOBT,C(=O)Onnn
+(42) four member lactones,C1(=O)OCC1
+(43) halogenated ring,"c1cc([Cl,Br,I,F])cc([Cl,Br,I,F])c1[Cl,Br,I,F]"
+(44) halogenated ring,"c1ccc([Cl,Br,I,F])c([Cl,Br,I,F])c1[Cl,Br,I,F]"
+(45) heavy metal,"[Hg,Fe,As,Sb,Zn,Se,se,Te,B,Si]"
+(46) het-C-het not in ring,"[NX3R0,NX4R0,OR0,SX2R0][CX4][NX3R0,NX4R0,OR0,SX2R0]"
+(47) hydantoin,C1NC(=O)NC(=O)1
+(48) hydrazine,N[NH2]
+(49) hydroquinone,"[OH]c1ccc([OH,NH2,NH])cc1"
+(50) hydroxamic acid,C(=O)N[OH]
+(51) imine,C=[N!R]
+(52) imine,"N=[CR0][N,n,O,S]"
+(53) iodine,I
+(54) isocyanate,N=C=O
+(55) isolated alkene,"[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]=[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]"
+(56) ketene,C=C=O
+"(57) methylidene-1,3-dithiole",S1C=CSC1=S
+(58) Michael acceptor,"C=!@CC=[O,S]"
+(59) Michael acceptor,"[$([CH]),$(CC)]#CC(=O)[C,c]"
+(60) Michael acceptor,"[$([CH]),$(CC)]#CS(=O)(=O)[C,c]"
+(61) Michael acceptor,C=C(C=O)C=O
+(62) Michael acceptor,"[$([CH]),$(CC)]#CC(=O)O[C,c]"
+(63) N oxide,"[NX2,nX3][OX1]"
+"(64) N-acyl-2-amino-5-mercapto-1,3,4-thiadiazole",s1c(S)nnc1NC=O
+(65) N-C-halo,"NC[F,Cl,Br,I]"
+(66) N-halo,"[NX3,NX4][F,Cl,Br,I]"
+(67) N-hydroxyl pyridine,n[OH]
+(68) nitro group,[N+](=O)[O-]
+(69) N-nitroso,[#7]-N=O
+(70) oxime,"[C,c]=N[OH]"
+(71) oxime,"[C,c]=NOC=O"
+(72) Oxygen-nitrogen single bond,"[OR0,NR0][OR0,NR0]"
+(73) perfluorinated chain,[CX4](F)(F)[CX4](F)F
+(74) peroxide,OO
+(75) phenol ester,c1ccccc1OC(=O)[#6]
+(76) phenyl carbonate,c1ccccc1OC(=O)O
+(77) phosphor,P
+(78) phthalimide,"[cR,CR]~C(=O)NC(=O)~[cR,CR]"
+(79) Polycyclic aromatic hydrocarbon,a1aa2a3a(a1)A=AA=A3=AA=A2
+(80) Polycyclic aromatic hydrocarbon,a21aa3a(aa1aaaa2)aaaa3
+(81) Polycyclic aromatic hydrocarbon,a31a(a2a(aa1)aaaa2)aaaa3
+(82) polyene,[CR0]=[CR0][CR0]=[CR0]
+(83) quaternary nitrogen,"[s,S,c,C,n,N,o,O]~[nX3+,NX3+](~[s,S,c,C,n,N])~[s,S,c,C,n,N]"
+(84) quaternary nitrogen,"[s,S,c,C,n,N,o,O]~[n+,N+](~[s,S,c,C,n,N,o,O])(~[s,S,c,C,n,N,o,O])~[s,S,c,C,n,N,o,O]"
+(85) quaternary nitrogen,[*]=[N+]=[*]
+(86) saponine derivative,O1CCCCC1OC2CCC3CCCCC3C2
+(87) silicon halogen,"[Si][F,Cl,Br,I]"
+(88) stilbene,c1ccccc1C=Cc2ccccc2
+(89) sulfinic acid,"[SX3](=O)[O-,OH]"
+(90) Sulfonic acid,"[C,c]S(=O)(=O)O[C,c]"
+(91) Sulfonic acid,"S(=O)(=O)[O-,OH]"
+(92) sulfonyl cyanide,S(=O)(=O)C#N
+(93) sulfur oxygen single bond,[SX2]O
+(94) sulphate,OS(=O)(=O)[O-]
+(95) sulphur nitrogen single bond,[SX2H0][N]
+(96) Thiobenzothiazole,c12ccccc1(SC(S)=N2)
+(97) thiobenzothiazole,c12ccccc1(SC(=S)N2)
+(98) Thiocarbonyl group,"[C,c]=S"
+(99) thioester,SC=O
+(100) thiol,[S-]
+(101) thiol,[SH]
+(102) Three-membered heterocycle,"*1[O,S,N]*1"
+(103) triflate,OS(=O)(=O)C(F)(F)F
+(104) triphenyl methyl-silyl,"[SiR0,CR0](c1ccccc1)(c2ccccc2)(c3ccccc3)"
+(105) triple bond,C#C

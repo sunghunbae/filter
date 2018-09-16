@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<Glaxo>
+  <group name="(1) R1 Reactive alkyl halides">
+    <SMARTS>[Br,Cl,I][CX4;CH,CH2]</SMARTS>
+  </group>
+  <group name="(2) R2 Acid halides">
+    <SMARTS>[S,C](=[O,S])[F,Br,Cl,I]</SMARTS>
+  </group>
+  <group name="(3) R3 Carbazides">
+    <SMARTS>O=CN=[N+]=[N-]</SMARTS>
+  </group>
+  <group name="(4) R4 Sulphate esters">
+    <SMARTS>COS(=O)O[C,c]</SMARTS>
+  </group>
+  <group name="(5) R5 Sulphonates">
+    <SMARTS>COS(=O)(=O)[C,c]</SMARTS>
+  </group>
+  <group name="(6) R6 Acid anhydrides">
+    <SMARTS>C(=O)OC(=O)</SMARTS>
+  </group>
+  <group name="(7) R7 Peroxides">
+    <SMARTS>OO</SMARTS>
+  </group>
+  <group name="(8) R8 Pentafluorophenyl esters">
+    <SMARTS>C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)</SMARTS>
+  </group>
+  <group name="(9) R9 Paranitrophenyl esters">
+    <SMARTS>C(=O)Oc1ccc(N(=O)~[OX1])cc1</SMARTS>
+  </group>
+  <group name="(10) R10 esters of HOBT">
+    <SMARTS>C(=O)Onnn</SMARTS>
+  </group>
+  <group name="(11) R11 Isocyanates &amp; Isothiocyanates">
+    <SMARTS>N=C=[S,O]</SMARTS>
+  </group>
+  <group name="(12) R12 Triflates">
+    <SMARTS>OS(=O)(=O)C(F)(F)F</SMARTS>
+  </group>
+  <group name="(13) R13 lawesson's reagent and derivatives">
+    <SMARTS>P(=S)(S)S</SMARTS>
+  </group>
+  <group name="(14) R14 phosphoramides">
+    <SMARTS>NP(=O)(N)N</SMARTS>
+  </group>
+  <group name="(15) R15 Aromatic azides">
+    <SMARTS>cN=[N+]=[N-]</SMARTS>
+  </group>
+  <group name="(16) R16 beta carbonyl quaternary Nitrogen">
+    <SMARTS>C(=O)C[N+,n+]</SMARTS>
+  </group>
+  <group name="(17) R17 acylhydrazide">
+    <SMARTS>[N;R0][N;R0]C(=O)</SMARTS>
+  </group>
+  <group name="(18) R18 Quaternary C, Cl, I, P or S">
+    <SMARTS>[C+,Cl+,I+,P+,S+]</SMARTS>
+  </group>
+  <group name="(19) R19 Phosphoranes">
+    <SMARTS>C=P</SMARTS>
+  </group>
+  <group name="(20) R20 Chloramidines">
+    <SMARTS>[Cl]C([C&amp;R0])=N</SMARTS>
+  </group>
+  <group name="(21) R21 Nitroso">
+    <SMARTS>[N&amp;D2](=O)</SMARTS>
+  </group>
+  <group name="(22) R22 P/S Halides">
+    <SMARTS>[P,S][Cl,Br,F,I]</SMARTS>
+  </group>
+  <group name="(23) R23 Carbodiimide">
+    <SMARTS>N=C=N</SMARTS>
+  </group>
+  <group name="(24) R24 Isonitrile">
+    <SMARTS>[N+]#[C-]</SMARTS>
+  </group>
+  <group name="(25) R25 Triacyloximes">
+    <SMARTS>C(=O)N(C(=O))OC(=O)</SMARTS>
+  </group>
+  <group name="(26) R26 Cyanohydrins">
+    <SMARTS>N#CC[OH]</SMARTS>
+  </group>
+  <group name="(27) R27 Acyl cyanides">
+    <SMARTS>N#CC(=O)</SMARTS>
+  </group>
+  <group name="(28) R28 Sulfonyl cyanides">
+    <SMARTS>S(=O)(=O)C#N</SMARTS>
+  </group>
+  <group name="(29) R29 Cyanophosphonates">
+    <SMARTS>P(OCC)(OCC)(=O)C#N</SMARTS>
+  </group>
+  <group name="(30) R30 Azocyanamides">
+    <SMARTS>[N;R0]=[N;R0]C#N</SMARTS>
+  </group>
+  <group name="(31) R31 Azoalkanals">
+    <SMARTS>[N;R0]=[N;R0]CC=O</SMARTS>
+  </group>
+  <group name="(32) I1 Aliphatic methylene chains 7 or more long">
+    <SMARTS>[CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]</SMARTS>
+  </group>
+  <group name="(33) I2 Compounds with 4 or more acidic groups">
+    <SMARTS>[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH]</SMARTS>
+  </group>
+  <group name="(34) I3 Crown ethers">
+    <SMARTS>[O;R1][C;R1][C;R1][O;R1][C;R1][C;R1][O;R1]</SMARTS>
+  </group>
+  <group name="(35) I4 Disulphides">
+    <SMARTS>SS</SMARTS>
+  </group>
+  <group name="(36) I5 Thiols">
+    <SMARTS>[SH]</SMARTS>
+  </group>
+  <group name="(37) I6 Epoxides, Thioepoxides, Aziridines">
+    <SMARTS>C1[O,S,N]C1</SMARTS>
+  </group>
+  <group name="(38) I7 2,4,5 trihydroxyphenyl">
+    <SMARTS>c([OH])c([OH])c([OH])</SMARTS>
+  </group>
+  <group name="(39) I8 2,3,4 trihydroxyphenyl">
+    <SMARTS>c([OH])c([OH])cc([OH])</SMARTS>
+  </group>
+  <group name="(40) I9 Hydrazothiourea">
+    <SMARTS>N=NC(=S)N</SMARTS>
+  </group>
+  <group name="(41) I10 Thiocyanate">
+    <SMARTS>SC#N</SMARTS>
+  </group>
+  <group name="(42) I11 Benzylic quaternary Nitrogen">
+    <SMARTS>cC[N+]</SMARTS>
+  </group>
+  <group name="(43) I12 Thioesters">
+    <SMARTS>C[O,S;R0][C;R0](=S)</SMARTS>
+  </group>
+  <group name="(44) I13 Cyanamides">
+    <SMARTS>N[CH2]C#N</SMARTS>
+  </group>
+  <group name="(45) I14 Four membered lactones">
+    <SMARTS>C1(=O)OCC1</SMARTS>
+  </group>
+  <group name="(46) I15 Di and Triphosphates">
+    <SMARTS>P(=O)([OH])OP(=O)[OH]</SMARTS>
+  </group>
+  <group name="(47) I16 Betalactams">
+    <SMARTS>N1CCC1=O</SMARTS>
+  </group>
+  <group name="(48) N1 Quinones">
+    <SMARTS>O=C1[#6]~[#6]C(=O)[#6]~[#6]1</SMARTS>
+  </group>
+  <group name="(49) N2 Polyenes">
+    <SMARTS>C=CC=CC=CC=C</SMARTS>
+  </group>
+  <group name="(50) N3 Saponin derivatives">
+    <SMARTS>O1CCCCC1OC2CCC3CCCCC3C2</SMARTS>
+  </group>
+  <group name="(51) N4 Cytochalasin derivatives">
+    <SMARTS>O=C1NCC2CCCCC21</SMARTS>
+  </group>
+  <group name="(52) N5 Cycloheximide derivatives">
+    <SMARTS>O=C1CCCC(N1)=O</SMARTS>
+  </group>
+  <group name="(53) N6 Monensin derivatives">
+    <SMARTS>O1CCCCC1C2CCCO2</SMARTS>
+  </group>
+  <group name="(54) N7 Cyanidin derivatives">
+    <SMARTS>[OH]c1cc([OH])cc2=[O+]C(=C([OH])Cc21)c3cc([OH])c([OH])cc3</SMARTS>
+  </group>
+  <group name="(55) N8 Squalestatin derivatives">
+    <SMARTS>C12OCCC(O1)CC2</SMARTS>
+  </group>
+</Glaxo>

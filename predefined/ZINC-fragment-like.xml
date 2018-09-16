@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ZINC-fragment-like>
+  <!--definition from zinc.docking.org -->
+  <!--Carr et al. (2005) Drug Discov Today. 10(14):987-->
+  <descriptor name="MolWt">
+    <max>250</max>
+  </descriptor>
+  <descriptor name="logP">
+    <max>3.5</max>
+  </descriptor>
+  <descriptor name="rb">
+    <max>5</max>
+  </descriptor>
+</ZINC-fragment-like>

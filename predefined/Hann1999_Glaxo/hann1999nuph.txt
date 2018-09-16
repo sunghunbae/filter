@@ -1,0 +1,11 @@
+# nucleophiles
+N1 primary amines [NH2][CX4]
+N2 secondary amines [NH]([CX4])[CX4]
+N4exc N=[O,C,N,S]
+N5exc N-[C,c,N]=[C,c,N,n,O,S]
+N6 [OH1][C,c,N;!$(C=O)]
+N7exc [OH1]C=C
+N8exc [OH1]NC=[O,S]
+N9 [$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]
+#N4-N9 includes alcohols, hydroxylamines but excludes e.g. carboxylic acids
+nucleophile [$N1,$N2,$N6,$N9;!$N4exc;!$N5exc;!$N7exc;!$N8exc] [$([NH2][CX4]),$([NH]([CX4])[CX4]),$([OH1][C,c,N;!$(C=O)]),$([$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]);!$(N=[O,C,N,S]);!$(N-[C,c,N]=[C,c,N,n,O,S]);!$([OH1]C=C);!$([OH1]NC=[O,S])]

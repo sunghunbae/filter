@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Hann1999>
+  <group name="Electrophile">
+    <SMARTS>[$([C;H1](=[O,S])[C,c]),$([C,P;H1](=[O,S])[O,S]),$([C](=O)([C,c,O,S])[C,c,O,S]),$(C(=[O,S])(N)Oc),$(C1(=O)NS(=O)(=O)[C,c]=,:[C,c]1),$([$(P(=O)[O,S]);!$(P[OH1])]),$([$(c(=O)(~c)~c);!$([$(c1(=O)ccn([C,c])cc1),$(c1(=O)n([C,c])cccc1)])]),$(C(=O)-N-C=O);!$(C(=O)[OH1]);!$(C(=O)[SH1])]</SMARTS>
+  </group>
+</Hann1999>

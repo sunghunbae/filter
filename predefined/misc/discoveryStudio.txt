@@ -1,0 +1,130 @@
+## This file is for the "Filter by SMARTS" protocol
+## The format of this file is a series of *TAB-delimited* columns, as follows:
+## SMARTS	NAME	MIN	MAX
+##
+## Where:
+## SMARTS - SMARTS pattern to match
+## NAME - A name for the pattern, this will form part of the output
+## MIN - The minimum number of times a feature must map
+## MAX - The maximum number of times a feature must map
+##
+## Notes:
+## To specify a feature to be absent, set both MIN and MAX to zero.
+## None of the fields can contain a tab, but spaces are allowed for NAME
+## All lines starting with # are considered comment lines.
+## Blank lines are skipped.
+## The NAME column from this file is used to generate the Input Filters parameter.
+## Duplicate SMARTS/names are  not supported and will create a warning.
+## Recursive SMARTS (those containing "$" followed by "(" ) are not permitted
+## and cause problems generating the Input Filters.
+## Commas in names are not allowed, though they are allowed in SMARTS
+
+######################################################################
+## The following SMARTS are taken from:
+## Prediction of 'drug-likeness'
+## Walters WP and Murcko MA
+## Adv Drug Deliv Rev. 2002 Mar 31;54(3):255-71
+######################################################################
+S(=O)(=O)[F,Cl,Br,I]	Sulfonyl halide	0	1
+[Cl,Br,I][CH2]	Primary alkyl halide	0	1
+C1[O,N]C1	Epoxide or aziridine	0	1
+[#6]S(=O)(=O)O[#6]	Sulfonate ester	0	1
+[#6]OP(=O)O[#6]	Phosphonate ester	0	1
+[CH2][CH2][CH2][CH2][CH2][CH2][CH2][CH2]	Long aliphatic chain	0	1
+C(=O)C(=O)	1-2 Dicarbonyl	0	1
+C(=O)[Cl,Br,I]	Acid halide	0	1
+
+######################################################################
+# General SMARTS patterns
+######################################################################
+[*]	Non-Hydrogen atoms	2	35
+[#6]	Carbons	1	30
+[#7,#8,#16]	N-O-S	0	9
+S(=O)(=O)[Cl,Br]	Sulfonyl halides	0	0
+[Br,Cl,I][CX4;CH,CH2]	Alkyl halides	0	0
+C=[N;R0]*	Imines	0	0
+N#CC=C	Acrylonitriles	0	0
+C=CC(=O)[!#7;!#8]	Propenals	0	0
+[r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20]	Macrocycles	0	0
+[Pv3]	Phosphorus 3	0	0
+[CX4][CD2][CD2][CD2][CD2][CD2;R0]	Hexanes	0	0
+[A,a]~[A,a][SD2,O,N,CX4;R0][SD2,O,N,CX4;R0][SD2,O,N,CX4;R0][SD2,O,N,CX4;R0][A,a]~[A,a]	5 rotatable bonds	0	0
+[CX4][OD1]	Aliphatic alcohols	0	3
+OCl(O)(O)(O)	Perchlorates	0	0
+F	Fluorines	0	7
+[Cl,Br,I]	Cl-Br-I	0	3
+P[Cl,Br,F,I]	P halides	0	0
+COS(=O)(=O)O[C,c]	Sulfate esters	0	0
+C1SC1	Thioepoxides	0	0
+[#7]O[#6,#16]=O	Aminooxy-oxo	0	0
+N(~[OD1])~[OD1]	Nitros	0	1
+[#7][Cl,Br,I]	N-halides	0	0
+[CX3H1](=O)[#6]	Aldehyde	0	1
+C#[ND1]	Cyano	0	1
+
+######################################################################
+## The following SMARTS are taken from:
+## Strategic Pooling of Compounds for High-Throughput Screening
+## Mike Hann, Brian Hudson, Xiao Lewell, Rob Lifely, Luke Miller, and Nigel Ramsden
+## J. Chem. Inf. Comput. Sci.; 1999; 39(5) pp 897 - 902
+######################################################################
+## reactive functional groups
+[S,C](=[O,S])[F,Br,Cl,I]	Acid halides	0	0
+O=CN=[N+]=[N-]	Carbazides	0	0
+COS(=O)O[C,c]	Sulfite esters	0	0
+COS(=O)(=O)[C,c]	Sulfonates	0	0
+C(=O)OC(=O)	Acid anhydrides	0	0
+OO	Peroxides	0	1
+C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)	Pentafluorophenyl esters	0	0
+C(=O)Oc1ccc(N(=O)=O)cc1	Paranitrophenyl esters	0	0
+C(=O)Onnn	Esters of HOBT	0	0
+N=C=[S,O]	Isocyanates and Isothiocyanates	0	0
+OS(=O)(=O)C(F)(F)F	Triflates	0	0
+P(=S)(S)S	Lawesson reagent and derivatives	0	0
+NP(=O)(N)N	Phosphoramides	0	0
+cN=[N+]=[N-]	Aromatic azides	0	0
+C(=O)C[N+,n+]	Beta carbonyl quaternary Nitrogen	0	0
+[N;R0][N;R0]C(=O)	Acylhydrazide	0	0
+[C+,Cl+,I+,P+,S+]	Quaternary C or C1 or I or P or S	0	0
+C=P	Phosphoranes	0	0
+[N&D2](=O)	Nitroso	0	0
+[P,S][Cl,Br,F,I]	P or S Halides	0	0
+N=C=N	Carbodiimide	0	0
+[N+]#[C-]	Isonitrile	0	1
+C(=O)N(C(=O))OC(=O)	Triacyloximes	0	0
+N#CC[OH]	Cyanohydrins	0	0
+N#CC(=O)	Acyl cyanides	0	0
+S(=O)(=O)C#N	Sulfonyl cyanides	0	0
+P(OCC)(OCC)(=O)C#N	Cyanophosphonates	0	0
+[N;R0]=[N;R0]C#N	Azocyanamides	0	0
+[N;R0]=[N;R0]CC=O	Azoalkanals	0	0
+
+######################################################################
+## unsuitable leads
+[CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]	Aliphatic methylene chains 7 or more long	0	0
+[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH]	Compounds with 4 or more acidic groups	0	0
+[O;R1][C;R1][C;R1][O;R1][C;R1][C;R1][O;R1]	Crown ethers	0	0
+SS	Disulfides	0	0
+[SH]	Thiols	0	0
+C1[O,S,N]C1	Epoxides or Thioepoxides or Aziridines	0	0
+c([OH])c([OH])c([OH])	2-4-5 trihydroxyphenyl	0	0
+c([OH])c([OH])cc([OH])	2-3-4 trihydroxyphenyl	0	0
+N=NC(=S)N	Hydrazothiourea	0	0
+SC#N	Thiocyanate	0	0
+cC[N+]	Benzylic quaternary Nitrogen	0	0
+C[O,S;R0][C;R0](=S)	Thioesters	0	0
+N[CH2]C#N	Cyanamides	0	0
+C1(=O)OCC1	Four numbered Lactones	0	0
+P(=O)([OH])OP(=O)[OH]	Di and Triphosphates	0	0
+N1CCC1=O	Betalactams	0	0
+
+######################################################################
+## unsuitable natural products			
+O=C1[#6]~[#6]C(=O)[#6]~[#6]1	Quinones	0	0
+C=CC=CC=CC=C	Polyenes	0	0
+O1CCCCC1OC2CCC3CCCCC3C2	Saponin derivatives	0	0
+O=C1NCC2CCCCC21	Cytochalasin derivatives	0	0
+O=C1CCCC(N1)=O	Cycloheximide derivatives	0	0
+O1CCCCC1C2CCCO2	Monensin derivatives	0	0
+[OH]c1cc([OH])cc2=[O+]C(=C([OH])Cc21)c3cc([OH])c([OH])	Cyanidin derivatives	0	0
+C12OCCC(O1)CC2	Squalestatin derivatives	0	0

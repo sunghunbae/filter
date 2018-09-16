@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Fragment>
+  <descriptor name="HAC">
+    <min>10</min>
+    <max>17</max>
+  </descriptor>
+</Fragment>

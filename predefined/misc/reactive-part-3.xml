@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SMARTPatterns>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-*)-C(=[OX1])-[CH2]-[F,Cl,Br,I]</SMART>
+        <name>alpha-Haloketones</name>
+        <desc>alpha-Haloketones</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-*)-[BX3](-[OX2]-[*,#1])-[OX2]-[*,#1]</SMART>
+        <name>boronic acids boronic esters</name>
+        <desc>boronic acids boronic esters</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-*)-[CH1]=[OX1]</SMART>
+        <name>aldehydes</name>
+        <desc>aldehydes</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-*)-C(=[OX1])-C(-F)(-F)F</SMART>
+        <name>TFMKs</name>
+        <desc>TFMKs</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-*)-C(=[OX1])-C(=[OX1])-*</SMART>
+        <name>1,2-dicarbonyls</name>
+        <desc>1,2-dicarbonyls</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=O)N-C(=C-*)c1cc2c(cc1)S(N(C2=O)*)(=O)=O</SMART>
+        <name>saccharinoids</name>
+        <desc>saccharinoids</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=C-O-[P](=[OX1])(-[O-])-[O-])-C(=[OX1])-[NH]-*</SMART>
+        <name>phosphoryl-serine phosphoryl-threonine</name>
+        <desc>phosphoryl-serine phosphoryl-threonine</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=C-c1ccc(-O-[PX4](=[OX1])(-[O-])-[O-])cc1)-C(=[OX1])-[NH]-*</SMART>
+        <name>phosphoryl-tyrosine</name>
+        <desc>phosphoryl-tyrosine</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=C-c1ccc(-O-[PX4](=[OX1])(-[O-])-[OX2]-*)cc1)-C(=[OX1])-[NH]-*</SMART>
+        <name>phosphate esters as "in vitro prodrugs"</name>
+        <desc>phosphate esters as "in vitro prodrugs"</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=C-c1ccc(-O-[*X4-3;!#6;!#7;!#8;!#9;!#15;!#16;!#17;!#34;!#35;!#53](=[OX1])(-[O-])-[O])cc1)-C(=[OX1])-[NH]-*</SMART>
+        <name>various metal substitutes for phosphorous</name>
+        <desc>various metal substitutes for phosphorous</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-*)-C(=[OX1])-[NH]-[O-,OH]</SMART>
+        <name>Hydroxamates</name>
+        <desc>Hydroxamates</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-[SH])-C(=[OX1])-[NH]-*</SMART>
+        <name>thiols</name>
+        <desc>thiols</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-[SH])-C(=[OX1])-[NH]-[OH]</SMART>
+        <name>double trouble</name>
+        <desc>double trouble</desc>
+    </pattern>
+    <pattern active="true">
+        <SMART>[*]-C(=[OX1])-[NH]-C(=[CH1]-*)-C(=N-[OH])-*</SMART>
+        <name>oximes</name>
+        <desc>oximes</desc>
+    </pattern>
+</SMARTPatterns>
+

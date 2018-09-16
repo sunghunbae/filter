@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<Fragment>
+  <descriptor name="MolWt">
+    <min>120</min>
+    <max>250</max>
+  </descriptor>
+  <descriptor name="logP">
+    <max>2.5</max>
+  </descriptor>
+  <descriptor name="HAC">
+    <min>9</min>
+    <max>18</max>
+  </descriptor>
+  <descriptor name="HBA">
+    <max>7</max>
+  </descriptor>
+  <descriptor name="HBD">
+    <max>4</max>
+  </descriptor>
+</Fragment>

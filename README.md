@@ -2,6 +2,11 @@
 
 Remove or select molecules with predefined substructures and descriptors
 
+## Requirement
+
+* Python 3.6
+* RDKit
+
 ## Usage
 
 ```
@@ -71,6 +76,8 @@ Electrophile | electrophile | Hann et al. (1999)
 
 ## Predefined descriptors
 
+All descriptor calculations use RDKit
+
 Name | Description
 ---- | -----------
 HAC | Heavyatom (non-hydrogen atom) count  
@@ -87,6 +94,8 @@ logP | log(partition coefficient between octanol and water)
 FCsp3 | Fraction of Sp3 carbons
 
 ## Examples of filters
+
+All filters are defined in XML format and easy to read, write and modify. 
 
 `predefined/ChEMBL_Walters/Glaxo.xml`
 
@@ -123,6 +132,13 @@ FCsp3 | Fraction of Sp3 carbons
 
 
 ## References
+
+1. `alert_collection.csv` is copied from Patrick Walters' blog and github:
+
+    - http://practicalcheminformatics.blogspot.com/2018/08/filtering-chemical-libraries.html
+
+    - https://github.com/PatWalters/rd_filters
+
 
 1. Huth JR, Mendoza R, Olejniczak ET, Johnson RW, Cothron DA, Liu Y, Lerner CG, Chen J, Hajduk PJ. ALARM NMR: a rapid and robust experimental method to detect reactive false positives in biochemical screens. J Am Chem Soc. 2005, 127, 217-24.
 

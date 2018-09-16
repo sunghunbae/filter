@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<Kazius2005>
+  <group name="(1) Aromatic nitro">
+    <SMARTS>a[$([NX3](=O)=O),$([NX3+](=O)[O-])][!#8]</SMARTS>
+  </group>
+  <group name="(2) Aromatic amine">
+    <SMARTS>a[NX3;H2]</SMARTS>
+  </group>
+  <group name="(3) 3-membered heterocycle">
+    <SMARTS>[N,O,S]1[C][C]1</SMARTS>
+  </group>
+  <group name="(4) unsubstituted heteroatom bonded heteroatom">
+    <SMARTS>[NX2;H2,OX1;H1][N,O]</SMARTS>
+  </group>
+  <group name="(5) Specific aromatic amine">
+    <SMARTS>a[NH2]</SMARTS>
+  </group>
+  <group name="(6) aromatic nitroso">
+    <SMARTS>a[N;X2]=O</SMARTS>
+  </group>
+  <group name="(7) alkyl nitrite">
+    <SMARTS>CO[N;X2]=O</SMARTS>
+  </group>
+  <group name="(8) nitrosamine">
+    <SMARTS>N[N;X2]=O</SMARTS>
+  </group>
+  <group name="(9) epoxide">
+    <SMARTS>O1[c,C]-[c,C]1</SMARTS>
+  </group>
+  <group name="(10) aziridine">
+    <SMARTS>C1NC1</SMARTS>
+  </group>
+  <group name="(11) azide">
+    <SMARTS>N=[N+]=[N-]</SMARTS>
+  </group>
+  <group name="(12) diazo">
+    <SMARTS>C=[N+]=[N-]</SMARTS>
+  </group>
+  <group name="(13) triazene">
+    <SMARTS>N=N-N</SMARTS>
+  </group>
+  <group name="(14) unsubstituted heteroatom-bonded heteroatom">
+    <SMARTS>[OH,NH2][N,O]</SMARTS>
+  </group>
+  <group name="(15) aromatic hydroxylamine">
+    <SMARTS>[OH]Na</SMARTS>
+  </group>
+  <group name="(16) aliphatic halide">
+    <SMARTS>[Cl,Br,I]C</SMARTS>
+  </group>
+  <group name="(17) carboxylic acid halide">
+    <SMARTS>[Cl,Br,I]C=O</SMARTS>
+  </group>
+  <group name="(18) nitrogen or sulphur mustard">
+    <SMARTS>[N,S]!@[C;X4]!@[CH2][Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(19) bay-region in Polycyclic Aromatic Hydrocarbons">
+    <SMARTS>[cH]1[cH]ccc2c1c3c(cc2)cc[cH][cH]3</SMARTS>
+  </group>
+  <group name="(20) K-region in Polycyclic Aromatic Hydrocarbons">
+    <SMARTS>[cH]1cccc2c1[cH][cH]c3c2ccc[cH]3</SMARTS>
+  </group>
+  <group name="(21) sulphonate-bonded carbon (alkyl alkane sulphonate or dialkyl sulphate)">
+    <SMARTS>[$([C,c]OS(=O)(=O)O!@[c,C]),$([c,C]S(=O)(=O)O!@[c,C])]</SMARTS>
+  </group>
+  <group name="(22) aliphatic N-nitro">
+    <SMARTS>O=N(~O)N</SMARTS>
+  </group>
+  <group name="(23) aB unsaturated aldehyde (including a-carbonyl aldehyde)">
+    <SMARTS>[$(O=[CH]C=C),$(O=[CH]C=O)]</SMARTS>
+  </group>
+  <group name="(24) diazonium">
+    <SMARTS>[N;v4]#N</SMARTS>
+  </group>
+  <group name="(25) beta-propiolactone">
+    <SMARTS>O=C1CCO1</SMARTS>
+  </group>
+  <group name="(26) ab unsaturated alkoxy group">
+    <SMARTS>[CH]=[CH]O</SMARTS>
+  </group>
+  <group name="(27) 1-aryl-2-monoalkyl hydrazine">
+    <SMARTS>[NH;!R][NH;R]a</SMARTS>
+  </group>
+  <group name="(28) ester derivative of aromatic hydroxylamine (including original specific toxicophore)">
+    <SMARTS>aN([$([OH]),$(O*=O)])[$([#1]),$(C(=O)[CH3]),$([CH3]),$([OH]),$(O*=O)]</SMARTS>
+  </group>
+  <group name="(29) polycyclic planar system 1">
+    <SMARTS>a13~a~a~a~a2~a1~a(~a~a~a~3)~a~a~a~2</SMARTS>
+  </group>
+  <group name="(30) polycyclic planar system 2">
+    <SMARTS>a1~a~a~a2~a~1~a~a3~a(~a~2)~a~a~a~3</SMARTS>
+  </group>
+  <group name="(31) polycyclic planar system 3">
+    <SMARTS>a1~a~a~a2~a~1~a~a~a3~a~2~a~a~a~3</SMARTS>
+  </group>
+  <group name="(32) polycyclic planar system 4">
+    <SMARTS>a1~a~a~a~a2~a~1~a3~a(~a~2)~a~a~a~a~3</SMARTS>
+  </group>
+  <group name="(33) polycyclic planar system 5">
+    <SMARTS>a1~a~a~a~a2~a~1~a~a3~a(~a~2)~a~a~a~3</SMARTS>
+  </group>
+  <group name="(34) polycyclic planar system 6">
+    <SMARTS>a1~a~a~a~a2~a~1~a~a3~a(~a~2)~a~a~a~a~3</SMARTS>
+  </group>
+  <group name="(35) polycyclic planar system 7">
+    <SMARTS>a1~a~a~a~a2~a~1~a~a~a3~a~2~a~a~a~3</SMARTS>
+  </group>
+  <group name="(36) polycyclic planar system 8">
+    <SMARTS>a1~a~a~a~a2~a~1~a~a~a3~a~2~a~a~a~a~3</SMARTS>
+  </group>
+  <group name="(37) polycyclic planar system 9">
+    <SMARTS>a13~a~a~a~a2~a1~a(~a~a~a~3)~a~a~2</SMARTS>
+  </group>
+</Kazius2005>

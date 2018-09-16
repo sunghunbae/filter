@@ -1,0 +1,543 @@
+<?xml version="1.0" ?>
+<BMS>
+  <group name="(1) 2halo_pyrazine_3EWG">
+    <SMARTS>[#7;R1]1[#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#7][#6][#6]1</SMARTS>
+  </group>
+  <group name="(2) 2halo_pyrazine_5EWG">
+    <SMARTS>[#7;R1]1[#6]([F,Cl,Br,I])[#6;!$(c-N)][#7][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c-N)]1</SMARTS>
+  </group>
+  <group name="(3) 2halo_pyridazine_3EWG">
+    <SMARTS>[#7;R1]1[#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6][#6][#7]1</SMARTS>
+  </group>
+  <group name="(4) 2halo_pyridazine_5EWG">
+    <SMARTS>[#7;R1]1[#6]([F,Cl,Br,I])[#6][#6][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#7]1</SMARTS>
+  </group>
+  <group name="(5) 2halo_pyridine_3EWG">
+    <SMARTS>[#7;R1]1[#6;!$(c=O)]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c-N)][#6][#6;!$(c-N)]1</SMARTS>
+  </group>
+  <group name="(6) 2halo_pyridine_5EWG">
+    <SMARTS>[#7;R1]1[#6;!$(c=O)]([F,Cl,Br,I])[#6][#6;!$(c-N)][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c=O);!$(c-N)]1</SMARTS>
+  </group>
+  <group name="(7) 2halo_pyrimidine_5EWG">
+    <SMARTS>[#7;R1]1[#6]([F,Cl,Br,I])[#7][#6][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]1</SMARTS>
+  </group>
+  <group name="(8) 3halo_pyridazine_2EWG">
+    <SMARTS>[#7;R1]1[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]([F,Cl,Br,I])[#6][#6][#7]1</SMARTS>
+  </group>
+  <group name="(9) 3halo_pyridazine_4EWG">
+    <SMARTS>[#7;R1]1[#6][#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6][#7]1</SMARTS>
+  </group>
+  <group name="(10) 4_pyridone_3_5_EWG">
+    <SMARTS>[#7,#8,#16]1~[#6;H]~[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])~[#6](=O)~[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])~[#6;H]1</SMARTS>
+  </group>
+  <group name="(11) 4halo_pyridine_3EWG">
+    <SMARTS>[#7;R1]1[#6;!$(c=O);!$(c-N)][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]([F,Cl,Br,I])[#6][#6;!$(c=O);!$(c-N)]1</SMARTS>
+  </group>
+  <group name="(12) 4halo_pyrimidine_2_6EWG">
+    <SMARTS>[#7]1[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#7;R1][#6]([F,Cl,Br,I])[#6][#6]1([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])</SMARTS>
+  </group>
+  <group name="(13) 4halo_pyrimidine_5EWG">
+    <SMARTS>[#7]1[#6][#7;R1][#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]1</SMARTS>
+  </group>
+  <group name="(14) CH2_S#O_3_ring">
+    <SMARTS>[CH2]1[O,S]C1</SMARTS>
+  </group>
+  <group name="(15) HOBT_ester">
+    <SMARTS>O=C(-[!N])O[$(nnn),$([#7]-[#7]=[#7])]</SMARTS>
+  </group>
+  <group name="(16) NO_phosphonate">
+    <SMARTS>P(=O)ON</SMARTS>
+  </group>
+  <group name="(17) acrylate">
+    <SMARTS>[CH2]=[C;!$(C-N);!$(C-O)]C(=O)</SMARTS>
+  </group>
+  <group name="(18) activated_4mem_ring">
+    <SMARTS>[#6]1~[$(C(=O)),$(S(=O))]~[O,S,N]~[$(C(=O)),$(S(=O))]1</SMARTS>
+  </group>
+  <group name="(19) activated_S#O_3_ring">
+    <SMARTS>C1~[O,S]~[C,N,O,S]1[a,N,O,S]</SMARTS>
+  </group>
+  <group name="(20) activated_acetylene">
+    <SMARTS>[$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))]C#[C;!$(C-N);!$(C-n)]</SMARTS>
+  </group>
+  <group name="(21) activated_diazo">
+    <SMARTS>[N;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])=[N;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])</SMARTS>
+  </group>
+  <group name="(22) activated_vinyl_ester">
+    <SMARTS>O=COC=[$(C(S(=O)(=O))),$(C(C(F)(F)(F))),$(C(C#N)),$(C(N(=O)(=O))),$(C([N+](=O)[O-])),$(C(C(=O)));!$(C(N))]</SMARTS>
+  </group>
+  <group name="(23) activated_vinyl_sulfonate">
+    <SMARTS>O(-S(=O)(=O))C=[$(C(S(=O)(=O))),$(C(C(F)(F)(F))),$(C(C#N)),$(C(N(=O)(=O))),$(C([N+](=O)[O-])),$(C(C(=O)));!$(C(N))]</SMARTS>
+  </group>
+  <group name="(24) acyclic_imide">
+    <SMARTS>[C,c][C;!R](=O)[N;!R][C;!R](=O)[C,c]</SMARTS>
+  </group>
+  <group name="(25) acyl_123_triazole">
+    <SMARTS>[#7;R1]1~[#7;R1]~[#7;R1](-C(=O))~[#6]~[#6]1</SMARTS>
+  </group>
+  <group name="(26) acyl_134_triazole">
+    <SMARTS>[#7]1~[#7]~[#6]~[#7](-C(=O)[!N])~[#6]1</SMARTS>
+  </group>
+  <group name="(27) acyl_activated_NO">
+    <SMARTS>O=C(-[!N])O[$([#7;+]),$(N(C=[O,S,N])(C=[O,S,N]))]</SMARTS>
+  </group>
+  <group name="(28) acyl_cyanide">
+    <SMARTS>C(=O)-C#N</SMARTS>
+  </group>
+  <group name="(29) acyl_imidazole">
+    <SMARTS>[C;!$(C-N)](=O)[#7]1[#6;H1,$([#6]([*;!R]))][#7][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))]1</SMARTS>
+  </group>
+  <group name="(30) acyl_pyrazole">
+    <SMARTS>[C;!$(C-N)](=O)[#7]1[#7][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))]1</SMARTS>
+  </group>
+  <group name="(31) aldehyde">
+    <SMARTS>[C,c][C;H1](=O)</SMARTS>
+  </group>
+  <group name="(32) alpha_dicarbonyl">
+    <SMARTS>C(=O)!@C(=O)</SMARTS>
+  </group>
+  <group name="(33) alpha_halo_EWG">
+    <SMARTS>[$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-])]-[CH,CH2]-[Cl,Br,I,$(O(S(=O)(=O)))]</SMARTS>
+  </group>
+  <group name="(34) alpha_halo_amine">
+    <SMARTS>[F,Cl,Br,I,$(O(S(=O)(=O)))]-[CH,CH2;!$([CF2])]-[N,n]</SMARTS>
+  </group>
+  <group name="(35) alpha_halo_carbonyl">
+    <SMARTS>C(=O)([CH,CH2][Cl,Br,I,$(O(S(=O)(=O)))])</SMARTS>
+  </group>
+  <group name="(36) alpha_halo_heteroatom">
+    <SMARTS>[N,n,O,S;!$(S(=O)(=O))]-[CH,CH2;!$([CF2])][F,Cl,Br,I,$(O(S(=O)(=O)))]</SMARTS>
+  </group>
+  <group name="(37) alpha_halo_heteroatom_tert">
+    <SMARTS>[N,n,O,S;!$(S(=O)(=O))]-C([Cl,Br,I,$(O(S(=O)(=O)))])(C)(C)</SMARTS>
+  </group>
+  <group name="(38) anhydride">
+    <SMARTS>[$(C(=O)),$(C(=S))]-[O,S]-[$(C(=O)),$(C(=S)),$(C(=[N;!R])),$(C(=N(-[C;X4])))]</SMARTS>
+  </group>
+  <group name="(39) aryl_phosphonate">
+    <SMARTS>P(=O)-[O;!R]-a</SMARTS>
+  </group>
+  <group name="(40) aryl_thiocarbonyl">
+    <SMARTS>a-[S;X2;!R]-[C;!R](=O)</SMARTS>
+  </group>
+  <group name="(41) azide">
+    <SMARTS>[$(N#[N+]-[N-]),$([N-]=[N+]=N)]</SMARTS>
+  </group>
+  <group name="(42) aziridine_diazirine">
+    <SMARTS>[C,N]1~[C,N]~N~1</SMARTS>
+  </group>
+  <group name="(43) azo_amino">
+    <SMARTS>[N]=[N;!R]-[N]</SMARTS>
+  </group>
+  <group name="(44) azo_aryl">
+    <SMARTS>c[N;!R;!+]=[N;!R;!+]-c</SMARTS>
+  </group>
+  <group name="(45) azo_filter1">
+    <SMARTS>[N;!R]=[N;!R]-[N]=[*]</SMARTS>
+  </group>
+  <group name="(46) azo_filter2">
+    <SMARTS>[N;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!r3;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!$(N-S(=O)(=O));!$(N-C=O)]</SMARTS>
+  </group>
+  <group name="(47) azo_filter3">
+    <SMARTS>[N;!R]-[N;!R]-[N;!R]</SMARTS>
+  </group>
+  <group name="(48) azo_filter4">
+    <SMARTS>a-N=N-[N;H2]</SMARTS>
+  </group>
+  <group name="(49) bad_boron">
+    <SMARTS>[B-,BH2,BH3,$(B(F)(F))]</SMARTS>
+  </group>
+  <group name="(50) bad_cations">
+    <SMARTS>[C+,F+,Cl+,Br+,I+,Se+]</SMARTS>
+  </group>
+  <group name="(51) benzidine_like">
+    <SMARTS>c([N;!+])1ccc(c2ccc([N;!+])cc2)cc1</SMARTS>
+  </group>
+  <group name="(52) beta_lactone">
+    <SMARTS>[#6,#15,#16]1(=O)~[#6]~[#6]~[#8,#16]1</SMARTS>
+  </group>
+  <group name="(53) betalactam">
+    <SMARTS>C1(=O)~[#6]~[#6]N1</SMARTS>
+  </group>
+  <group name="(54) betalactam_EWG">
+    <SMARTS>C1(=O)~[#6]~[#6]N1([$(S(=O)(=O)[C,c,O&amp;D2]),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)[C,c,O&amp;D2])])</SMARTS>
+  </group>
+  <group name="(55) bis_activated_aryl_ester">
+    <SMARTS>O=[C,S]Oc1aaa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1</SMARTS>
+  </group>
+  <group name="(56) bis_keto_olefin">
+    <SMARTS>CC(=O)[$([C&amp;H1]),$(C-F),$(C-Cl),$(C-Br),$(C-I)]=[$([C&amp;H1]),$(C-F),$(C-Cl),$(C-Br),$(C-I)]C(=O)C</SMARTS>
+  </group>
+  <group name="(57) boron_warhead">
+    <SMARTS>[C,c]~[#5]</SMARTS>
+  </group>
+  <group name="(58) branched_polycyclic_aromatic">
+    <SMARTS>a1(a2aa(a3aaaaa3)aa(a4aaaaa4)a2)aaaaa1</SMARTS>
+  </group>
+  <group name="(59) carbodiimide_iso#thio#cyanate">
+    <SMARTS>N=C=[N,O,S]</SMARTS>
+  </group>
+  <group name="(60) carbonyl_halide">
+    <SMARTS>O=C[F,Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(61) contains_metal">
+    <SMARTS>[$([Ru]),$([Rh]),$([Se]),$([se]),$([Pd]),$([Sc]),$([Bi]),$([Sb]),$([Ag]),$([Ti]),$([Al]),$([Cd]),$([V]),$([In]),$([Cr]),$([Sn]),$([Mn]),$([La]),$([Fe]),$([Er]),$([Tm]),$([Yb]),$([Lu]),$([Hf]),$([Ta]),$([W]),$([Re]),$([Co]),$([Os]),$([Ni]),$([Ir]),$([Cu]),$([Zn]),$([Ga]),$([Ge]),$([As]),$([as]),$([Y]),$([Zr]),$([Nb]),$([Ce]),$([Pr]),$([Nd]),$([Sm]),$([Eu]),$([Gd]),$([Tb]),$([Dy]),$([Ho]),$([Pt]),$([Au]),$([Hg]),$([Tl]),$([Pb]),$([Ac]),$([Th]),$([Pa]),$([Mo]),$([U]),$([Tc]),$([Te]),$([Po]),$([At])]</SMARTS>
+  </group>
+  <group name="(62) crown_ether">
+    <SMARTS>[$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18]),$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18]),$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18])]</SMARTS>
+  </group>
+  <group name="(63) cyano_phosphonate">
+    <SMARTS>P(O[A,a])(O[A,a])(=O)C#N</SMARTS>
+  </group>
+  <group name="(64) cyanohydrin">
+    <SMARTS>[C;X4](-[OH,NH1,NH2,SH])(-C#N)</SMARTS>
+  </group>
+  <group name="(65) diamino_sulfide">
+    <SMARTS>[N,n]~[S;!R;D2]~[N,n]</SMARTS>
+  </group>
+  <group name="(66) diazo_carbonyl">
+    <SMARTS>[$(N=N=C~C=O),$(N#N-C~C=O)]</SMARTS>
+  </group>
+  <group name="(67) diazonium">
+    <SMARTS>a[N+]#N</SMARTS>
+  </group>
+  <group name="(68) dicarbonyl_sulfonamide">
+    <SMARTS>[$(N(-C(=O))(-C(=O))(-S(=O))),$(n([#6](=O))([#6](=O))([#16](=O)))]</SMARTS>
+  </group>
+  <group name="(69) disulfide_acyclic">
+    <SMARTS>[S;!R;X2]-[S;!R;X2]</SMARTS>
+  </group>
+  <group name="(70) disulfonyliminoquinone">
+    <SMARTS>S(=O)(=O)N=C1C=CC(=NS(=O)(=O))C=C1</SMARTS>
+  </group>
+  <group name="(71) double_trouble_warhead">
+    <SMARTS>NC(C[S;D1])C([N;H1]([O;D1]))=O</SMARTS>
+  </group>
+  <group name="(72) flavanoid">
+    <SMARTS>O=C2CC(a3aaaaa3)Oa1aaaaa12</SMARTS>
+  </group>
+  <group name="(73) four_nitriles">
+    <SMARTS>C#N.C#N.C#N.C#N</SMARTS>
+  </group>
+  <group name="(74) gte_10_carbon_sb_chain">
+    <SMARTS>[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]</SMARTS>
+  </group>
+  <group name="(75) gte_2_N_quats">
+    <SMARTS>[N,n;H0;+;!$(N~O);!$(n~O)].[N,n;H0;+;!$(N~O);!$(n~O)]</SMARTS>
+  </group>
+  <group name="(76) gte_2_free_phos">
+    <SMARTS>P([O;D1])=O.P([O;D1])=O</SMARTS>
+  </group>
+  <group name="(77) gte_2_sulfonic_acid">
+    <SMARTS>[C,c]S(=O)(=O)[O;D1].[C,c]S(=O)(=O)[O;D1]</SMARTS>
+  </group>
+  <group name="(78) gte_3_COOH">
+    <SMARTS>C(=O)[O;D1].C(=O)[O;D1].C(=O)[O;D1]</SMARTS>
+  </group>
+  <group name="(79) gte_3_iodine">
+    <SMARTS>[#53].[#53].[#53]</SMARTS>
+  </group>
+  <group name="(80) gte_4_basic_N">
+    <SMARTS>[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(N-c)]</SMARTS>
+  </group>
+  <group name="(81) gte_4_nitro">
+    <SMARTS>[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)]</SMARTS>
+  </group>
+  <group name="(82) gte_5_phenolic_OH">
+    <SMARTS>a[O;D1].a[O;D1].a[O;D1].a[O;D1].a[O;D1]</SMARTS>
+  </group>
+  <group name="(83) gte_7_aliphatic_OH">
+    <SMARTS>C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1]</SMARTS>
+  </group>
+  <group name="(84) gte_7_total_hal">
+    <SMARTS>[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(85) gte_8_CF2_or_CH2">
+    <SMARTS>[CH2,$([CF2]);R0][CH2,$([CF2]);R0][CH2,$([CF2]);R0][CH2,$([CF2]);R0][CH2,$([CF2]);R0][CH2,$([CF2]);R0][CH2,$([CF2]);R0][CH2,$([CF2]);R0]</SMARTS>
+  </group>
+  <group name="(86) halo_5heterocycle_bis_EWG">
+    <SMARTS>[#7,#8,#16]1[#6]([$(S(=O)(=O)),$([F,Cl]),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])[#6]([$(S(=O)(=O)),$([F,Cl]),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])[#7][#6]1([Cl,Br,I])</SMARTS>
+  </group>
+  <group name="(87) halo_acrylate">
+    <SMARTS>[$([C;H2]),$([C&amp;H1;$(C-F)]),$([C&amp;H1;$(C-Cl)]),$([C&amp;H1;$(C-Br)]),$([C&amp;H1;$(CI)]),$(C(F)F),$(C(Cl)Cl),$(C(Br)Br),$(C(I)I),$(C(F)Cl),$(C(F)Br),$(C(F)I),$(C(Cl)Br),$(C(Br)I)](=[$([C&amp;H1;$(C(-C(=O)))]),$(C(F)(C(=O))),$(C(Cl)(C(=O))),$(C(Br)(C(=O))),$(C(I)(C(=O))),$(C(C)(C(=O))),$(C(c)(C(=O)))])</SMARTS>
+  </group>
+  <group name="(88) halo_imino">
+    <SMARTS>C(=[#7])([Cl,Br,I,$(O(S(=O)(=O)))])</SMARTS>
+  </group>
+  <group name="(89) halo_olefin_bis_EWG">
+    <SMARTS>C([Cl,Br,I,$(O(S(=O)(=O)))])=C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])</SMARTS>
+  </group>
+  <group name="(90) halo_phenolic_carbonyl">
+    <SMARTS>C(=O)Oc1c([Cl,F])[cH1,$(c[F,Cl])]c([F,Cl])[cH1,$(c[F,Cl])]c1([F,Cl])</SMARTS>
+  </group>
+  <group name="(91) halo_phenolic_sulfonyl">
+    <SMARTS>S(=O)Oc1c([Cl,F])[cH1,$(c[F,Cl])]c([F,Cl])[cH1,$(c[F,Cl])]c1([F,Cl])</SMARTS>
+  </group>
+  <group name="(92) halogen_heteroatom">
+    <SMARTS>[!C;!c;!H][F,Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(93) hetero_silyl">
+    <SMARTS>[Si]~[!#6]</SMARTS>
+  </group>
+  <group name="(94) hydrazine">
+    <SMARTS>[N;X3;!$(N-S(=O)(=O));!$(N-C(F)(F)(F));!$(N-C#N);!$(N-C(=O));!$(N-C(=S));!$(N-C(=N))]-[N;X3;!$(N-S(=O)(=O));!$(N-C(F)(F)(F));!$(N-C#N);!$(N-C(=O));!$(N-C(=S));!$(N-C(=N))]</SMARTS>
+  </group>
+  <group name="(95) hydrazothiourea">
+    <SMARTS>[N;!R]=NC(=S)N</SMARTS>
+  </group>
+  <group name="(96) hydroxamate_warhead">
+    <SMARTS>C([N;H1]([O;D1]))=O</SMARTS>
+  </group>
+  <group name="(97) hyperval_sulfur">
+    <SMARTS>[$([#16&amp;D3]),$([#16&amp;D4])]=,:[#6]</SMARTS>
+  </group>
+  <group name="(98) isonitrile">
+    <SMARTS>[N+]#[C-]</SMARTS>
+  </group>
+  <group name="(99) keto_def_heterocycle">
+    <SMARTS>[$(c([C;!R;!$(C-[N,O,S]);!$(C-[H])](=O))1naaaa1),$(c([C;!R;!$(C-[N,O,S]);!$(C-[H])](=O))1naa[n,s,o]1)]</SMARTS>
+  </group>
+  <group name="(100) linear_polycyclic_aromatic_I">
+    <SMARTS>[$(a12aaaaa1aa3a(aa(aaaa4)a4a3)a2),$(a12aaaaa1aa3a(aaa4a3aaaa4)a2),$(a12aaaaa1a(aa5)a3a(aaa4a3a5aaa4)a2)]</SMARTS>
+  </group>
+  <group name="(101) linear_polycyclic_aromatic_II">
+    <SMARTS>[$(a12aaaa4a1a3a(aaaa3aa4)aa2),$(a12aaaaa1a3a(aaa4a3aaaa4)aa2),$(a1(a(aaaa4)a4a3a2aaaa3)a2aaaa1)]</SMARTS>
+  </group>
+  <group name="(102) maleimide_etc">
+    <SMARTS>[$([C;H1]),$(C(-[F,Cl,Br,I]))]1=[$([C;H1]),$(C(-[F,Cl,Br,I]))]C(=O)[N,O,S]C(=O)1</SMARTS>
+  </group>
+  <group name="(103) meldrums_acid_deriv">
+    <SMARTS>O=C1OC(C)(C)OC(C1)=O</SMARTS>
+  </group>
+  <group name="(104) monofluoroacetate">
+    <SMARTS>[C;H2](F)C(=O)[O,N,S]</SMARTS>
+  </group>
+  <group name="(105) nitrone">
+    <SMARTS>[C;!R]=[N+][O;D1]</SMARTS>
+  </group>
+  <group name="(106) nitrosamine">
+    <SMARTS>N-[N;X2](=O)</SMARTS>
+  </group>
+  <group name="(107) non_ring_CH2O_acetal">
+    <SMARTS>[O,N,S;!$(S~O)]!@[CH2]!@[O,S,N;!$(S~O)]</SMARTS>
+  </group>
+  <group name="(108) non_ring_acetal">
+    <SMARTS>[O,N,S;!$(S~O)]!@[C;H1;X4]!@[O,N,S;!$(S~O)]</SMARTS>
+  </group>
+  <group name="(109) non_ring_ketal">
+    <SMARTS>[O,N,S;!$(S~O)]!@[C;H0;X4](!@[O,N,S;!$(S~O)])(C)</SMARTS>
+  </group>
+  <group name="(110) ortho_hydroiminoquinone">
+    <SMARTS>c1c([N;D1])c([N;D1])c[cH1][cH1]1</SMARTS>
+  </group>
+  <group name="(111) ortho_hydroquinone">
+    <SMARTS>a1c([O,S;D1])c([O,S;D1])a[cH1][cH1]1</SMARTS>
+  </group>
+  <group name="(112) ortho_nitrophenyl_carbonyl">
+    <SMARTS>[#6]1(-O-[C;!R](=[O,N;!R]))[#6]([$(N(=O)(=O)),$([N+](=O)[O-])])[#6][#6][#6][#6]1</SMARTS>
+  </group>
+  <group name="(113) ortho_quinone">
+    <SMARTS>[CH1,$(C(-[Cl,Br,I]))]1=CC(=[O,N,S;!R])C(=[O,N,S])C=[CH1,$(C(-[Cl,Br,I]))]1</SMARTS>
+  </group>
+  <group name="(114) oxaziridine">
+    <SMARTS>C1~[O,S]~N1</SMARTS>
+  </group>
+  <group name="(115) oxime">
+    <SMARTS>[$(C=N[O;D1]);!$(C=[N+])][#6][#6]</SMARTS>
+  </group>
+  <group name="(116) oxonium">
+    <SMARTS>[o+,O+]</SMARTS>
+  </group>
+  <group name="(117) para_hydroiminoquinone">
+    <SMARTS>a1[cH1]c([N;D1])[cH1]ac([N;D1])1</SMARTS>
+  </group>
+  <group name="(118) para_hydroquinone">
+    <SMARTS>a1[cH1]c([O,S;D1])[cH1]ac([O,S;D1])1</SMARTS>
+  </group>
+  <group name="(119) para_nitrophenyl_ester">
+    <SMARTS>[#6]1(-O(-[C;!R](-[!N])(=[O,N;!R])))[#6][#6][#6]([$(N(=O)(=O)),$([N+](=O)[O-])])[#6][#6]1</SMARTS>
+  </group>
+  <group name="(120) para_quinone">
+    <SMARTS>[CH1,$(C(-[Cl,Br,I]))]1=[CH1,$(C(-[Cl,Br,I]))]C(=[O,N,S])[CH1,$(C(-[Cl,Br,I]))]=[CH1,$(C(-[Cl,Br,I]))]C1(=[O,N,S])</SMARTS>
+  </group>
+  <group name="(121) paraquat_like">
+    <SMARTS>[#6]1[#6][#6]([#6]2[#6][#6][#7;+][#6][#6]2)[#6][#6][#7;+]1</SMARTS>
+  </group>
+  <group name="(122) pentafluorophenylester">
+    <SMARTS>C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)</SMARTS>
+  </group>
+  <group name="(123) perchloro_cp">
+    <SMARTS>C1(Cl)(Cl)C(Cl)C(Cl)=C(Cl)C1(Cl)</SMARTS>
+  </group>
+  <group name="(124) perhalo_dicarbonyl_phenyl">
+    <SMARTS>c1(C=O)c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c1(C=O)</SMARTS>
+  </group>
+  <group name="(125) perhalo_phenyl">
+    <SMARTS>c1c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c1([Br,Cl,I])</SMARTS>
+  </group>
+  <group name="(126) peroxide">
+    <SMARTS>[#8]~[#8]</SMARTS>
+  </group>
+  <group name="(127) phenolate_bis_EWG">
+    <SMARTS>O=[C,S]Oc1aaa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1</SMARTS>
+  </group>
+  <group name="(128) phos_serine_warhead">
+    <SMARTS>NC(COP(O)(O)=O)C(O)=O</SMARTS>
+  </group>
+  <group name="(129) phos_threonine_warhead">
+    <SMARTS>NC(C(C)OP(O)(O)=O)C(O)=O</SMARTS>
+  </group>
+  <group name="(130) phos_tyrosine_warhead">
+    <SMARTS>NC(Cc1ccc(OP(O)(O)=O)cc1)C(O)=O</SMARTS>
+  </group>
+  <group name="(131) phosphite">
+    <SMARTS>[c,C]-[P;v3]</SMARTS>
+  </group>
+  <group name="(132) phosphonium">
+    <SMARTS>[#15;+]~[!O]</SMARTS>
+  </group>
+  <group name="(133) phosphorane">
+    <SMARTS>C=P</SMARTS>
+  </group>
+  <group name="(134) phosphorous_nitrogen_bond">
+    <SMARTS>[#15]~[N,n]</SMARTS>
+  </group>
+  <group name="(135) phosphorus_phosphorus_bond">
+    <SMARTS>P~P</SMARTS>
+  </group>
+  <group name="(136) phosphorus_sulfur_bond">
+    <SMARTS>P~S</SMARTS>
+  </group>
+  <group name="(137) polyene">
+    <SMARTS>C=[C;!R][C;!R]=[C;!R][C;!R]=[C;!R]</SMARTS>
+  </group>
+  <group name="(138) polyhalo_phenol_a">
+    <SMARTS>c1c([O;D1])c(-[Cl,Br,I])c(-[Cl,Br,I])cc1.c1c([O;D1])c(-[Cl,Br,I])c(-[Cl,Br,I])cc1</SMARTS>
+  </group>
+  <group name="(139) polyhalo_phenol_b">
+    <SMARTS>c1c([O;D1])c(-[Cl,Br,I])cc(-[Cl,Br,I])c1.c1c([O;D1])c(-[Cl,Br,I])cc(-[Cl,Br,I])c1</SMARTS>
+  </group>
+  <group name="(140) polyhalo_phenol_c">
+    <SMARTS>c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1.c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1</SMARTS>
+  </group>
+  <group name="(141) polyhalo_phenol_d">
+    <SMARTS>c(-[Cl,Br,I])1c([O;D1])c(-[Cl,Br,I])ccc1.c(-[Cl,Br,I])1c([O;D1])c(-[Cl,Br,I])ccc1</SMARTS>
+  </group>
+  <group name="(142) polyhalo_phenol_e">
+    <SMARTS>c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1.c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1</SMARTS>
+  </group>
+  <group name="(143) polysulfide">
+    <SMARTS>[S;D2]-[S;D2]-[S;D2]</SMARTS>
+  </group>
+  <group name="(144) porphyrin">
+    <SMARTS>[#6;r16,r17,r18]~[#6]1~[#6]~[#6]~[#6](~[#6])~[#7]1</SMARTS>
+  </group>
+  <group name="(145) primary_halide_sulfate">
+    <SMARTS>[CH2][Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&amp;D1])]))]</SMARTS>
+  </group>
+  <group name="(146) quat_N_N">
+    <SMARTS>[N,n;R;+]!@[N,n]</SMARTS>
+  </group>
+  <group name="(147) quat_N_acyl">
+    <SMARTS>[N,n;+]!@C(=O)</SMARTS>
+  </group>
+  <group name="(148) quinone_methide">
+    <SMARTS>[#6;!$([#6](-[N,O,S]))]1=[#6;!$([#6](-[N,O,S]))][#6](=[#6])[#6;!$([#6](-[N,O,S]))]=[#6;!$([#6](-[N,O,S]))][#6]1(=[O,N,S])</SMARTS>
+  </group>
+  <group name="(149) rhodanine">
+    <SMARTS>C(=C)1SC(=S)NC(=O)1</SMARTS>
+  </group>
+  <group name="(150) secondary_halide_sulfate">
+    <SMARTS>[CH;!$(C=C)][Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&amp;D1])]))]</SMARTS>
+  </group>
+  <group name="(151) sulf_D2_nitrogen">
+    <SMARTS>[S;D2](-[N;!$(N(=C));!$(N(-S(=O)(=O)));!$(N(-C(=O)))])</SMARTS>
+  </group>
+  <group name="(152) sulf_D2_oxygen_D2">
+    <SMARTS>[S;D2][O;D2]</SMARTS>
+  </group>
+  <group name="(153) sulf_D3_nitrogen">
+    <SMARTS>[S;D3](-N)(-[c,C])(-[c,C])</SMARTS>
+  </group>
+  <group name="(154) sulfite_sulfate_ester">
+    <SMARTS>[C,c]OS(=O)O[C,c]</SMARTS>
+  </group>
+  <group name="(155) sulfonium">
+    <SMARTS>[S+;X3;$(S-C);!$(S-[O;D1])]</SMARTS>
+  </group>
+  <group name="(156) sulfonyl_anhydride">
+    <SMARTS>[$(C(=O)),$(S(=O)(=O))][O,S](S(=O)(=O))</SMARTS>
+  </group>
+  <group name="(157) sulfonyl_halide">
+    <SMARTS>S(=O)(=O)[F,Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(158) sulfonyl_heteroatom">
+    <SMARTS>[!#6;!#1;!#11;!#19]O(S(=O)(=O)(-[C,c]))</SMARTS>
+  </group>
+  <group name="(159) sulphonyl_cyanide">
+    <SMARTS>S(=O)(=O)C#N</SMARTS>
+  </group>
+  <group name="(160) tertiary_halide_sulfate">
+    <SMARTS>[C;X4](-[Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&amp;D1])]))])(-[c,C])(-[c,C])(-[c,C])</SMARTS>
+  </group>
+  <group name="(161) thio_hydroxamate">
+    <SMARTS>[S;D2]([$(N(=C)),$(N(-S(=O)(=O))),$(N(-C(=O)))])</SMARTS>
+  </group>
+  <group name="(162) thio_xanthate">
+    <SMARTS>[S;!R]-[C;!R](=[S;!R])(-[S;!R])</SMARTS>
+  </group>
+  <group name="(163) thiocarbonate">
+    <SMARTS>SC(=O)[O,S]</SMARTS>
+  </group>
+  <group name="(164) thioester">
+    <SMARTS>[S;!R;H0]C(=[S,O;!R])([!O;!S;!N])</SMARTS>
+  </group>
+  <group name="(165) thiol_warhead">
+    <SMARTS>NC(C[S;D1])C(O)=O</SMARTS>
+  </group>
+  <group name="(166) thiopyrylium">
+    <SMARTS>c1[S,s;+]cccc1</SMARTS>
+  </group>
+  <group name="(167) thiosulfoxide">
+    <SMARTS>[C,c][S;X3](~O)-S</SMARTS>
+  </group>
+  <group name="(168) triamide">
+    <SMARTS>[$(N(-C(=O))(-C(=O))(-C(=O))),$(n([#6](=O))([#6](=O))([#6](=O)))]</SMARTS>
+  </group>
+  <group name="(169) triaryl_phosphine_oxide">
+    <SMARTS>P(=O)(a)(a)(a)</SMARTS>
+  </group>
+  <group name="(170) trichloromethyl_ketone">
+    <SMARTS>[$(C(=O));!$(C-N);!$(C-O);!$(C-S)]C(Cl)(Cl)(Cl)</SMARTS>
+  </group>
+  <group name="(171) triflate">
+    <SMARTS>OS(=O)(=O)(C(F)(F)(F))</SMARTS>
+  </group>
+  <group name="(172) trifluoroacetate_ester">
+    <SMARTS>C(F)(F)(F)C(=O)O</SMARTS>
+  </group>
+  <group name="(173) trifluoroacetate_thioester">
+    <SMARTS>C(F)(F)(F)C(=O)S</SMARTS>
+  </group>
+  <group name="(174) trifluoromethyl_ketone">
+    <SMARTS>[$(C(=O));!$(C-N);!$(C-O);!$(C-S)]C(F)(F)(F)</SMARTS>
+  </group>
+  <group name="(175) trihalovinyl_heteroatom">
+    <SMARTS>C(-[Cl,Br,I])(-[Cl,Br,I])=C(-[Cl,Br,I])(-[N,O,S])</SMARTS>
+  </group>
+  <group name="(176) trinitro_aromatic">
+    <SMARTS>[$(a1aaa([$(N(=O)(=O)),$([N+](=O)[O-])])a([$(N(=O)(=O)),$([N+](=O)[O-])])a1([$(N(=O)(=O)),$([N+](=O)[O-])])),$(a1aa([$(N(=O)(=O)),$([N+](=O)[O-])])a([$(N(=O)(=O)),$([N+](=O)[O-])])aa1([$(N(=O)(=O)),$([N+](=O)[O-])])),$(a1a([$(N(=O)(=O)),$([N+](=O)[O-])])aa([$(N(=O)(=O)),$([N+](=O)[O-])])aa1([$(N(=O)(=O)),$([N+](=O)[O-])]))]</SMARTS>
+  </group>
+  <group name="(177) trinitromethane_derivative">
+    <SMARTS>C([$([N+](=O)[O-]),$(N(=O)=O)])([$([N+](=O)[O-]),$(N(=O)=O)])([$([N+](=O)[O-]),$(N(=O)=O)])</SMARTS>
+  </group>
+  <group name="(178) tris_activated_aryl_ester">
+    <SMARTS>[$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa1),$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aaa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1),$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a1),$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1)]</SMARTS>
+  </group>
+  <group name="(179) trisub_bis_act_olefin">
+    <SMARTS>[CH;!R;!$(C-N)]=C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])</SMARTS>
+  </group>
+  <group name="(180) vinyl_carbonyl_EWG">
+    <SMARTS>[C;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])=[C;!R]([C;!R](=O))([!$([#8]);!$([#7])])</SMARTS>
+  </group>
+</BMS>

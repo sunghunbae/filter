@@ -1,0 +1,318 @@
+<?xml version="1.0" ?>
+<Dundee>
+  <group name="(1) &gt; 2 ester groups">
+    <SMARTS>C(=O)O[C,H1].C(=O)O[C,H1].C(=O)O[C,H1]</SMARTS>
+  </group>
+  <group name="(2) 2-halo pyridine">
+    <SMARTS>n1c([F,Cl,Br,I])cccc1</SMARTS>
+  </group>
+  <group name="(3) acid halide">
+    <SMARTS>C(=O)[Cl,Br,I,F]</SMARTS>
+  </group>
+  <group name="(4) acyclic C=C-O">
+    <SMARTS>C=[C!r]O</SMARTS>
+  </group>
+  <group name="(5) acyl cyanide">
+    <SMARTS>N#CC(=O)</SMARTS>
+  </group>
+  <group name="(6) acyl hydrazine">
+    <SMARTS>C(=O)N[NH2]</SMARTS>
+  </group>
+  <group name="(7) aldehyde">
+    <SMARTS>[CH1](=O)</SMARTS>
+  </group>
+  <group name="(8) Aliphatic long chain">
+    <SMARTS>[R0;D2][R0;D2][R0;D2][R0;D2]</SMARTS>
+  </group>
+  <group name="(9) alkyl halide">
+    <SMARTS>[CX4][Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(10) amidotetrazole">
+    <SMARTS>c1nnnn1C=O</SMARTS>
+  </group>
+  <group name="(11) aniline">
+    <SMARTS>c1cc([NH2])ccc1</SMARTS>
+  </group>
+  <group name="(12) azepane">
+    <SMARTS>[CH2R2]1N[CH2R2][CH2R2][CH2R2][CH2R2][CH2R2]1</SMARTS>
+  </group>
+  <group name="(13) Azido group">
+    <SMARTS>N=[N+]=[N-]</SMARTS>
+  </group>
+  <group name="(14) Azo group">
+    <SMARTS>N#N</SMARTS>
+  </group>
+  <group name="(15) azocane">
+    <SMARTS>[CH2R2]1N[CH2R2][CH2R2][CH2R2][CH2R2][CH2R2][CH2R2]1</SMARTS>
+  </group>
+  <group name="(16) benzidine">
+    <SMARTS>[cR2]1[cR2][cR2]([Nv3X3,Nv4X4])[cR2][cR2][cR2]1[cR2]2[cR2][cR2][cR2]([Nv3X3,Nv4X4])[cR2][cR2]2</SMARTS>
+  </group>
+  <group name="(17) beta-keto/anhydride">
+    <SMARTS>[C,c](=O)[CX4,CR0X3,O][C,c](=O)</SMARTS>
+  </group>
+  <group name="(18) biotin analogue">
+    <SMARTS>C12C(NC(N1)=O)CSC2</SMARTS>
+  </group>
+  <group name="(19) Carbocation/anion">
+    <SMARTS>[C+,c+,C-,c-]</SMARTS>
+  </group>
+  <group name="(20) catechol">
+    <SMARTS>c1c([OH])c([OH,NH2,NH])ccc1</SMARTS>
+  </group>
+  <group name="(21) charged oxygen or sulfur atoms">
+    <SMARTS>[O+,o+,S+,s+]</SMARTS>
+  </group>
+  <group name="(22) chinone">
+    <SMARTS>C1(=[O,N])C=CC(=[O,N])C=C1</SMARTS>
+  </group>
+  <group name="(23) chinone">
+    <SMARTS>C1(=[O,N])C(=[O,N])C=CC=C1</SMARTS>
+  </group>
+  <group name="(24) conjugated nitrile group">
+    <SMARTS>C=[C!r]C#N</SMARTS>
+  </group>
+  <group name="(25) crown ether">
+    <SMARTS>[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]</SMARTS>
+  </group>
+  <group name="(26) cumarine">
+    <SMARTS>c1ccc2c(c1)ccc(=O)o2</SMARTS>
+  </group>
+  <group name="(27) cyanamide">
+    <SMARTS>N[CH2]C#N</SMARTS>
+  </group>
+  <group name="(28) cyanate/aminonitrile/thiocyanate">
+    <SMARTS>[N,O,S]C#N</SMARTS>
+  </group>
+  <group name="(29) cyanohydrins">
+    <SMARTS>N#CC[OH]</SMARTS>
+  </group>
+  <group name="(30) cycloheptane">
+    <SMARTS>[CR2]1[CR2][CR2][CR2][CR2][CR2][CR2]1</SMARTS>
+  </group>
+  <group name="(31) cycloheptane">
+    <SMARTS>[CR2]1[CR2][CR2]cc[CR2][CR2]1</SMARTS>
+  </group>
+  <group name="(32) cyclooctane">
+    <SMARTS>[CR2]1[CR2][CR2][CR2][CR2][CR2][CR2][CR2]1</SMARTS>
+  </group>
+  <group name="(33) cyclooctane">
+    <SMARTS>[CR2]1[CR2][CR2]cc[CR2][CR2][CR2]1</SMARTS>
+  </group>
+  <group name="(34) diaminobenzene">
+    <SMARTS>[cR2]1[cR2]c([N+0X3R0,nX3R0])c([N+0X3R0,nX3R0])[cR2][cR2]1</SMARTS>
+  </group>
+  <group name="(35) diaminobenzene">
+    <SMARTS>[cR2]1[cR2]c([N+0X3R0,nX3R0])[cR2]c([N+0X3R0,nX3R0])[cR2]1</SMARTS>
+  </group>
+  <group name="(36) diaminobenzene">
+    <SMARTS>[cR2]1[cR2]c([N+0X3R0,nX3R0])[cR2][cR2]c1([N+0X3R0,nX3R0])</SMARTS>
+  </group>
+  <group name="(37) diazo group">
+    <SMARTS>[N!R]=[N!R]</SMARTS>
+  </group>
+  <group name="(38) diketo group">
+    <SMARTS>[C,c](=O)[C,c](=O)</SMARTS>
+  </group>
+  <group name="(39) disulphide">
+    <SMARTS>SS</SMARTS>
+  </group>
+  <group name="(40) enamine">
+    <SMARTS>[CX2R0][NX3R0]</SMARTS>
+  </group>
+  <group name="(41) ester of HOBT">
+    <SMARTS>C(=O)Onnn</SMARTS>
+  </group>
+  <group name="(42) four member lactones">
+    <SMARTS>C1(=O)OCC1</SMARTS>
+  </group>
+  <group name="(43) halogenated ring">
+    <SMARTS>c1cc([Cl,Br,I,F])cc([Cl,Br,I,F])c1[Cl,Br,I,F]</SMARTS>
+  </group>
+  <group name="(44) halogenated ring">
+    <SMARTS>c1ccc([Cl,Br,I,F])c([Cl,Br,I,F])c1[Cl,Br,I,F]</SMARTS>
+  </group>
+  <group name="(45) heavy metal">
+    <SMARTS>[Hg,Fe,As,Sb,Zn,Se,se,Te,B,Si]</SMARTS>
+  </group>
+  <group name="(46) het-C-het not in ring">
+    <SMARTS>[NX3R0,NX4R0,OR0,SX2R0][CX4][NX3R0,NX4R0,OR0,SX2R0]</SMARTS>
+  </group>
+  <group name="(47) hydantoin">
+    <SMARTS>C1NC(=O)NC(=O)1</SMARTS>
+  </group>
+  <group name="(48) hydrazine">
+    <SMARTS>N[NH2]</SMARTS>
+  </group>
+  <group name="(49) hydroquinone">
+    <SMARTS>[OH]c1ccc([OH,NH2,NH])cc1</SMARTS>
+  </group>
+  <group name="(50) hydroxamic acid">
+    <SMARTS>C(=O)N[OH]</SMARTS>
+  </group>
+  <group name="(51) imine">
+    <SMARTS>C=[N!R]</SMARTS>
+  </group>
+  <group name="(52) imine">
+    <SMARTS>N=[CR0][N,n,O,S]</SMARTS>
+  </group>
+  <group name="(53) iodine">
+    <SMARTS>I</SMARTS>
+  </group>
+  <group name="(54) isocyanate">
+    <SMARTS>N=C=O</SMARTS>
+  </group>
+  <group name="(55) isolated alkene">
+    <SMARTS>[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]=[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]</SMARTS>
+  </group>
+  <group name="(56) ketene">
+    <SMARTS>C=C=O</SMARTS>
+  </group>
+  <group name="(57) methylidene-1,3-dithiole">
+    <SMARTS>S1C=CSC1=S</SMARTS>
+  </group>
+  <group name="(58) Michael acceptor">
+    <SMARTS>C=!@CC=[O,S]</SMARTS>
+  </group>
+  <group name="(59) Michael acceptor">
+    <SMARTS>[$([CH]),$(CC)]#CC(=O)[C,c]</SMARTS>
+  </group>
+  <group name="(60) Michael acceptor">
+    <SMARTS>[$([CH]),$(CC)]#CS(=O)(=O)[C,c]</SMARTS>
+  </group>
+  <group name="(61) Michael acceptor">
+    <SMARTS>C=C(C=O)C=O</SMARTS>
+  </group>
+  <group name="(62) Michael acceptor">
+    <SMARTS>[$([CH]),$(CC)]#CC(=O)O[C,c]</SMARTS>
+  </group>
+  <group name="(63) N oxide">
+    <SMARTS>[NX2,nX3][OX1]</SMARTS>
+  </group>
+  <group name="(64) N-acyl-2-amino-5-mercapto-1,3,4-thiadiazole">
+    <SMARTS>s1c(S)nnc1NC=O</SMARTS>
+  </group>
+  <group name="(65) N-C-halo">
+    <SMARTS>NC[F,Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(66) N-halo">
+    <SMARTS>[NX3,NX4][F,Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(67) N-hydroxyl pyridine">
+    <SMARTS>n[OH]</SMARTS>
+  </group>
+  <group name="(68) nitro group">
+    <SMARTS>[N+](=O)[O-]</SMARTS>
+  </group>
+  <group name="(69) N-nitroso">
+    <SMARTS>[#7]-N=O</SMARTS>
+  </group>
+  <group name="(70) oxime">
+    <SMARTS>[C,c]=N[OH]</SMARTS>
+  </group>
+  <group name="(71) oxime">
+    <SMARTS>[C,c]=NOC=O</SMARTS>
+  </group>
+  <group name="(72) Oxygen-nitrogen single bond">
+    <SMARTS>[OR0,NR0][OR0,NR0]</SMARTS>
+  </group>
+  <group name="(73) perfluorinated chain">
+    <SMARTS>[CX4](F)(F)[CX4](F)F</SMARTS>
+  </group>
+  <group name="(74) peroxide">
+    <SMARTS>OO</SMARTS>
+  </group>
+  <group name="(75) phenol ester">
+    <SMARTS>c1ccccc1OC(=O)[#6]</SMARTS>
+  </group>
+  <group name="(76) phenyl carbonate">
+    <SMARTS>c1ccccc1OC(=O)O</SMARTS>
+  </group>
+  <group name="(77) phosphor">
+    <SMARTS>P</SMARTS>
+  </group>
+  <group name="(78) phthalimide">
+    <SMARTS>[cR,CR]~C(=O)NC(=O)~[cR,CR]</SMARTS>
+  </group>
+  <group name="(79) Polycyclic aromatic hydrocarbon">
+    <SMARTS>a1aa2a3a(a1)A=AA=A3=AA=A2</SMARTS>
+  </group>
+  <group name="(80) Polycyclic aromatic hydrocarbon">
+    <SMARTS>a21aa3a(aa1aaaa2)aaaa3</SMARTS>
+  </group>
+  <group name="(81) Polycyclic aromatic hydrocarbon">
+    <SMARTS>a31a(a2a(aa1)aaaa2)aaaa3</SMARTS>
+  </group>
+  <group name="(82) polyene">
+    <SMARTS>[CR0]=[CR0][CR0]=[CR0]</SMARTS>
+  </group>
+  <group name="(83) quaternary nitrogen">
+    <SMARTS>[s,S,c,C,n,N,o,O]~[nX3+,NX3+](~[s,S,c,C,n,N])~[s,S,c,C,n,N]</SMARTS>
+  </group>
+  <group name="(84) quaternary nitrogen">
+    <SMARTS>[s,S,c,C,n,N,o,O]~[n+,N+](~[s,S,c,C,n,N,o,O])(~[s,S,c,C,n,N,o,O])~[s,S,c,C,n,N,o,O]</SMARTS>
+  </group>
+  <group name="(85) quaternary nitrogen">
+    <SMARTS>[*]=[N+]=[*]</SMARTS>
+  </group>
+  <group name="(86) saponine derivative">
+    <SMARTS>O1CCCCC1OC2CCC3CCCCC3C2</SMARTS>
+  </group>
+  <group name="(87) silicon halogen">
+    <SMARTS>[Si][F,Cl,Br,I]</SMARTS>
+  </group>
+  <group name="(88) stilbene">
+    <SMARTS>c1ccccc1C=Cc2ccccc2</SMARTS>
+  </group>
+  <group name="(89) sulfinic acid">
+    <SMARTS>[SX3](=O)[O-,OH]</SMARTS>
+  </group>
+  <group name="(90) Sulfonic acid">
+    <SMARTS>[C,c]S(=O)(=O)O[C,c]</SMARTS>
+  </group>
+  <group name="(91) Sulfonic acid">
+    <SMARTS>S(=O)(=O)[O-,OH]</SMARTS>
+  </group>
+  <group name="(92) sulfonyl cyanide">
+    <SMARTS>S(=O)(=O)C#N</SMARTS>
+  </group>
+  <group name="(93) sulfur oxygen single bond">
+    <SMARTS>[SX2]O</SMARTS>
+  </group>
+  <group name="(94) sulphate">
+    <SMARTS>OS(=O)(=O)[O-]</SMARTS>
+  </group>
+  <group name="(95) Sulphur-nitrogen single bond">
+    <SMARTS>[SX2H0][N]</SMARTS>
+  </group>
+  <group name="(96) Thiobenzothiazole">
+    <SMARTS>c12ccccc1(SC(S)=N2)</SMARTS>
+  </group>
+  <group name="(97) thiobenzothiazole">
+    <SMARTS>c12ccccc1(SC(=S)N2)</SMARTS>
+  </group>
+  <group name="(98) Thiocarbonyl group">
+    <SMARTS>[C,c]=S</SMARTS>
+  </group>
+  <group name="(99) thioester">
+    <SMARTS>SC=O</SMARTS>
+  </group>
+  <group name="(100) thiol">
+    <SMARTS>[S-]</SMARTS>
+  </group>
+  <group name="(101) thiol">
+    <SMARTS>[SH]</SMARTS>
+  </group>
+  <group name="(102) Three-membered heterocycle">
+    <SMARTS>*1[O,S,N]*1</SMARTS>
+  </group>
+  <group name="(103) triflate">
+    <SMARTS>OS(=O)(=O)C(F)(F)F</SMARTS>
+  </group>
+  <group name="(104) triphenyl methylsilyl">
+    <SMARTS>[SiR0,CR0](c1ccccc1)(c2ccccc2)(c3ccccc3)</SMARTS>
+  </group>
+  <group name="(105) triple bond">
+    <SMARTS>C#C</SMARTS>
+  </group>
+</Dundee>

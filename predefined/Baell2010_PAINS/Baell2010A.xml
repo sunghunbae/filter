@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<PAINS>
+  <!--Filter Family A p.S23-->
+  <group name="(1) ene_six_het_A(483)">
+    <SMARTS>[#6]-1(-[#6](~[!#6&amp;!#1]~[#6]-[!#6&amp;!#1]-[#6]-1=[!#6&amp;!#1])~[!#6&amp;!#1])=[#6;!R]-[#1]</SMARTS>
+  </group>
+  <group name="(2) hzone_phenol_A(479)">
+    <SMARTS>c:1:c:c(:c(:c:c:1)-[#6]=[#7]-[#7])-[#8]-[#1]</SMARTS>
+  </group>
+  <group name="(3) anil_di_alk_A(478)">
+    <SMARTS>[#6](-[#1])(-[#1])-[#7](-[#6](-[#1])-[#1])-c:1:c:c(:c(:c(:c:1)-[$([#1]),$([#6](-[#1])-[#1]),$([#8]-[#6](-[#1])(-[#1])-[#6](-[#1])-[#1])])-[#7])-[#1]</SMARTS>
+  </group>
+  <group name="(4) indol_3yl_alk(461)">
+    <SMARTS>n:1(c(c(c:2:c:1:c:c:c:c:2-[#1])-[#6;X4]-[#1])-[$([#6](-[#1])-[#1]),$([#6]=,:[!#6&amp;!#1]),$([#6](-[#1])-[#7]),$([#6](-[#1])(-[#6](-[#1])-[#1])-[#6](-[#1])(-[#1])-[#7](-[#1])-[#6](-[#1])-[#1])])-[$([#1]),$([#6](-[#1])-[#1])]</SMARTS>
+  </group>
+  <group name="(5) quinone_A(370)">
+    <SMARTS>[!#6&amp;!#1]=[#6]-1-[#6]=,:[#6]-[#6](=[!#6&amp;!#1])-[#6]=,:[#6]-1</SMARTS>
+  </group>
+  <group name="(6) azo_A(324)">
+    <SMARTS>[#7;!R]=[#7]</SMARTS>
+  </group>
+  <group name="(7) imine_one_A(321)">
+    <SMARTS>[#6]-[#6](=[!#6&amp;!#1;!R])-[#6](=[!#6&amp;!#1;!R])-[$([#6]),$([#16](=[#8])=[#8])]</SMARTS>
+  </group>
+  <group name="(8) mannich_A(296)">
+    <SMARTS>[#7]-[#6;X4]-c:1:c:c:c:c:c:1-[#8]-[#1]</SMARTS>
+  </group>
+  <group name="(9) anil_di_alk_B(251)">
+    <SMARTS>c:1:c:c(:c:c:c:1-[#7](-[#6;X4])-[#6;X4])-[#6]=[#6]</SMARTS>
+  </group>
+  <group name="(10) anil_di_alk_C(246)">
+    <SMARTS>c:1:c:c(:c:c:c:1-[#8]-[#6;X4])-[#7](-[#6;X4])-[$([#1]),$([#6;X4])]</SMARTS>
+  </group>
+  <group name="(11) ene_rhod_A(235)">
+    <SMARTS>[#7]-1-[#6](=[#16])-[#16]-[#6](=[#6])-[#6]-1=[#8]</SMARTS>
+  </group>
+  <group name="(12) hzone_phenol_B(215)">
+    <SMARTS>c:1(:c:c:c(:c:c:1)-[#6]=[#7]-[#7])-[#8]-[#1]</SMARTS>
+  </group>
+  <group name="(13) ene_five_het_A(201)">
+    <SMARTS>[#6]-1(=[#6])-[#6]=[#7]-[!#6&amp;!#1]-[#6]-1=[#8]</SMARTS>
+  </group>
+  <group name="(14) anil_di_alk_D(198)">
+    <SMARTS>c:1:c:c(:c:c:c:1-[#7](-[#6;X4])-[#6;X4])-[#6;X4]-[$([#8]-[#1]),$([#6]=[#6]-[#1]),$([#7]-[#6;X4])]</SMARTS>
+  </group>
+  <group name="(15) imine_one_isatin(189)">
+    <SMARTS>[#8]=[#6]-2-[#6](=!@[#7]-[#7])-c:1:c:c:c:c:c:1-[#7]-2</SMARTS>
+  </group>
+  <group name="(16) anil_di_alk_E(186)">
+    <SMARTS>[#6](-[#1])-[#7](-[#6](-[#1])-[#1])-c:1:c(:c(:c(:c(:c:1-[#1])-[$([#1]),$([#6](-[#1])-[#1])])-[#6](-[#1])-[$([#1]),$([#6]-[#1])])-[#1])-[#1]</SMARTS>
+  </group>
+</PAINS>

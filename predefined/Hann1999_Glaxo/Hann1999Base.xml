@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Hann1999>
+  <group name="Base">
+    <SMARTS>[$([NH2][CX4]),$([NH]([CX4])[CX4]),$([NX3]([CX4])([CX4])[CX4]),$([$([C,c](=N)N);!$([C,c](=N)N[C,S](=O))]),$([nH0;!$(n-C);!$(n(:c)(:c):a)]1ccccc1),$([$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]);!$([N,n;+1])]</SMARTS>
+  </group>
+</Hann1999>

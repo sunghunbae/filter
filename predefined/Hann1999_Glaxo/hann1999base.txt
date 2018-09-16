@@ -1,0 +1,13 @@
+# base
+B1 primary amine [NH2][CX4]
+B2 secondary amine [NH]([CX4])[CX4]
+B3 tertiary amine [NX3]([CX4])([CX4])[CX4]
+B4sub [C,c](=N)N
+B5exc [C,c](=N)N[C,S](=O)
+B6 [$B4sub;!$B5exc] [$([C,c](=N)N);!$([C,c](=N)N[C,S](=O))]
+B7exc n(:c)(:c):a
+B7 [nH0;!$(n-C);!$B7exc]1ccccc1 [nH0;!$(n-C);!$(n(:c)(:c):a)]1ccccc1
+B8exc [N,n;+1]
+B9 [$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]
+#B7-B9 are heterocyclic bases e.g. pyridines
+base [$B1,$B2,$B3,$B6,$B7,$B9;!$B8exc] [$([NH2][CX4]),$([NH]([CX4])[CX4]),$([NX3]([CX4])([CX4])[CX4]),$([$([C,c](=N)N);!$([C,c](=N)N[C,S](=O))]),$([nH0;!$(n-C);!$(n(:c)(:c):a)]1ccccc1),$([$([NH2]!:c),$([NH1]([CX4])!:c),$([NH0]([CX4])([CX4])!:c)]);!$([N,n;+1])]
