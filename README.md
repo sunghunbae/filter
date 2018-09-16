@@ -1,4 +1,5 @@
 # filter
+
 Remove or select molecules with predefined substructures and descriptors
 
 ## Usage
@@ -20,20 +21,29 @@ Options:
 
 ```python filter.py --check a```
 
-show all predefined filters and descriptors
+Show all predefined filters and descriptors. 
+Please note that an arbitrary filename `a` is given here.
 
 ```python filter.py test/test.sdf --identity ID --remove lint```
-``` test-selected.sdf test-removed.csv```
 
+Remove compounds that match LINT filters. `--identity` option is used to find a
+unique molecular name in case the first line of SDF file is blank.
+If `--identity` option is omitted, it tries to guess a most suitable identity using
+the properties.
+Predefined or custom filters can be used after `--remove` or `--select` options.
+A cloest matching and case insensitive fiter names are accepted.
 
-```python filter.py test/HIV.smi --select frag```
+```python filter.py test/test.sdf -r inphar -s zincfrag```
 
+Remove compounds that match Inpharmatica filter and select ZINC fragment definition.
+`--remove (or -r)` and `--select (or -s)` can be used at the same time.
 
 ## Predefined filters
 
 Name | Description | Reference 
 ---- | ----------- | ---------
 PAINS | Pan Assay Interference Compounds (PAINS) (>150 hits)    | Baell et al. (2010)
+
 PAINSa | Pan Assay Interference Compounds (PAINS) (>150 hits)    | Baell et al. (2010)
 PAINSb | Pan Assay Interference Compounds (PAINS) (15-150 hits) | Baell et al. (2010) 
 PAINSc | Pan Assay Interference Compounds (PAINS) (<15 hits)    | Baell et al. (2010)
@@ -75,6 +85,41 @@ MolWt | Molecular weight
 TPSA | Topological polar surface area
 logP | log(partition coefficient between octanol and water)
 FCsp3 | Fraction of Sp3 carbons
+
+## Examples of filters
+
+predefined/Baell2010_PAINS/Baell2010A.xml
+```
+<?xml version="1.0" ?>
+<PAINS>
+  <!--Filter Family A p.S23-->
+  <group name="(1) ene_six_het_A(483)">
+    <SMARTS>[#6]-1(-[#6](~[!#6&amp;!#1]~[#6]-[!#6&amp;!#1]-[#6]-1=[!#6&amp;!#1])~[!#6&amp;!#1])=[#6;!R]-[#1]</SMARTS>
+  </group>
+  <group name="(2) hzone_phenol_A(479)">
+    <SMARTS>c:1:c:c(:c(:c:c:1)-[#6]=[#7]-[#7])-[#8]-[#1]</SMARTS>
+  </group>
+ ...
+</PAINS>
+```
+
+predefined/ZINC-Lipinski.xml
+```
+<?xml version="1.0" ?>
+<ZINC-Lipinski>
+  <!--definition from zinc.docking.org -->
+  <!--Lipinski, J Pharmacol Toxicol Methods. 2000 Jul-Aug;44(1):235-49.-->
+  <descriptor name="MolWt">
+    <min>150</min>
+    <max>500</max>
+  </descriptor>
+  <descriptor name="logP">
+    <max>5.0</max>
+  </descriptor>
+ ...
+</ZINC-Lipinski>
+```
+
 
 ## References
 
