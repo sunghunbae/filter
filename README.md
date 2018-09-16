@@ -19,12 +19,12 @@ Options:
   --help               Show this message and exit.
 ```
 
-```python filter.py --check a```
+```$ python filter.py --check a```
 
 Show all predefined filters and descriptors. 
-Please note that an arbitrary filename `a` is given here.
+Please note that an arbitrary filename "a" is given here.
 
-```python filter.py test/test.sdf --identity ID --remove lint```
+```$ python filter.py test/test.sdf --identity ID --remove lint```
 
 Remove compounds that match LINT filters. `--identity` option is used to find a
 unique molecular name in case the first line of SDF file is blank.
@@ -33,7 +33,7 @@ the properties.
 Predefined or custom filters can be used after `--remove` or `--select` options.
 A cloest matching and case insensitive fiter names are accepted.
 
-```python filter.py test/test.sdf -r inphar -s zincfrag```
+```$ python filter.py test/test.sdf -r inphar -s zincfrag```
 
 Remove compounds that match Inpharmatica filter and select ZINC fragment definition.
 `--remove (or -r)` and `--select (or -s)` can be used at the same time.
