@@ -134,9 +134,7 @@ All filters are defined in XML format and easy to read, write and modify.
 ## References
 
 1. `alert_collection.csv` is copied from Patrick Walters' blog and github:
-
     - http://practicalcheminformatics.blogspot.com/2018/08/filtering-chemical-libraries.html
-
     - https://github.com/PatWalters/rd_filters
 
 
