@@ -1,6 +1,34 @@
 # filter
 Remove or select molecules with predefined substructures and descriptors
 
+## Usage
+
+```
+Usage: filter.py [OPTIONS] FILENAME
+
+  remove or select molecules by using predefined or custom filters
+
+Options:
+  --verbose / --quiet
+  -r, --remove TEXT
+  -s, --select TEXT
+  --identity TEXT      SDF property name for molecule ID
+  --check              Check predefined filters
+  --cpu INTEGER        Number of CPUs to use
+  --help               Show this message and exit.
+```
+
+```python filter.py --check a```
+
+show all predefined filters and descriptors
+
+```python filter.py test/test.sdf --identity ID --remove lint```
+``` test-selected.sdf test-removed.csv```
+
+
+```python filter.py test/HIV.smi --select frag```
+
+
 ## Predefined filters
 
 Name | Description | Reference 
