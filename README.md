@@ -136,20 +136,11 @@ All filters are defined in XML format and easy to read, write and modify.
 1. `alert_collection.csv` is copied from Patrick Walters' blog and github:
     - http://practicalcheminformatics.blogspot.com/2018/08/filtering-chemical-libraries.html
     - https://github.com/PatWalters/rd_filters
-
-
 1. Huth JR, Mendoza R, Olejniczak ET, Johnson RW, Cothron DA, Liu Y, Lerner CG, Chen J, Hajduk PJ. ALARM NMR: a rapid and robust experimental method to detect reactive false positives in biochemical screens. J Am Chem Soc. 2005, 127, 217-24.
-
 1. Jeroen Kazius, Ross McGuire, and Roberta Bursi. Derivation and Validation of Toxicophores for Mutagenicity Prediction. J. Med. Chem. 2005, 48, 312-320.
-
 1. J. F. Blake. Identification and Evaluation of Molecular Properties Related to Preclinical Optimization and Clinical Fate. Med Chem. 2005, 1, 649-55.
-
 1. Mike Hann, Brian Hudson, Xiao Lewell, Rob Lifely, Luke Miller, and Nigel Ramsden. Strategic Pooling of Compounds for High-Throughput Screening. J. Chem. Inf. Comput. Sci. 1999, 39, 897-902.
-
 1. Jonathan B. Baell and Georgina A. Holloway. New Substructure Filters for Removal of Pan Assay Interference Compounds (PAINS) from Screening Libraries and for Their Exclusion in Bioassays. J. Med. Chem. 2010, 53, 2719-2740.
-
 1. Bradley C. Pearce, Michael J. Sofia, Andrew C. Good, Dieter M. Drexler, and David A. Stock. An Empirical Process for the Design of High-Throughput Screening Deck Filters. J. Chem. Inf. Model. 2006, 46, 1060-1068.
-
 1. Ruth Brenk, Alessandro Schipani, Daniel James, Agata Krasowski, Ian Hugh Gilbert, Julie Frearson aand Paul Graham Wyatt. Lessons learnt from assembling screening libraries for drug discovery for neglected diseases. ChemMedChem. 2008, 3, 435-44.
-
 1. Sivaraman Dandapani, Gerard Rosse, Noel Southall, Joseph M. Salvino, Craig J. Thomas. Selecting, Acquiring, and Using Small Molecule Libraries for High‐Throughput Screening. Curr Protoc Chem Biol. 2012, 4, 177–191.
