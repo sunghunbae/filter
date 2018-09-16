@@ -6,6 +6,7 @@ Remove or select molecules with predefined substructures and descriptors
 Name | Description | Reference 
 ---- | ----------- | ---------
 PAINS | Pan Assay Interference Compounds (PAINS) (>150 hits)    | Baell et al. (2010)
+PAINSa | Pan Assay Interference Compounds (PAINS) (>150 hits)    | Baell et al. (2010)
 PAINSb | Pan Assay Interference Compounds (PAINS) (15-150 hits) | Baell et al. (2010) 
 PAINSc | Pan Assay Interference Compounds (PAINS) (<15 hits)    | Baell et al. (2010)
 Dundee | NTD Screening Library | Brenk et al. (2008)
@@ -16,6 +17,36 @@ MLSMR  | NIH Molecular Libraries Small Molecule Repository <br>Excluded Function
 Inpharmatica | Unwanted Fragments | ChEMBL
 Toxicophore  | Toxicophores for Mutagenicity Prediction | Kazius et al. (2005)
 ALARM | Abott ALARM NMR Filters for Reactive Compounds | Huth et al. (2005)
+SureChEMBL | SureChEMBL filter | ChEMBL
+Reactive | reactive functional group | 
+AstexRO3 | Astex rule of 3 | Astex
+Fragment | fragment |
+AsinexFrag |  Asinex's fragment | Asinex
+ZincFrag  | ZINC's fragment-like | ZINC
+Lead-Like | ZINC's lead-like | ZINC
+Lipinski  | ZINC's drug-like | ZINC
+Acid | acid | Hann et al. (1999)
+Base | base | Hann et al. (1999)
+Nucleophile | nucleophile | Hann et al. (1999)
+Electrophile | electrophile | Hann et al. (1999)
+
+
+## Predefined descriptors
+
+Name | Description
+---- | -----------
+HAC | Heavyatom (non-hydrogen atom) count  
+HBA | Number of hydrogen bond acceptor
+LipinskiHBA | Number of Lipinski's Hydrogen bond acceptor
+HBD | Number of hydrogen bond donor
+LipinskiHBD | Number of Lipinski's Hydrogen bond donor
+rb | Number of rotatable bond
+ring | Number of rings
+stereo | Number of atom stereo centers
+MolWt | Molecular weight
+TPSA | Topological polar surface area
+logP | log(partition coefficient between octanol and water)
+FCsp3 | Fraction of Sp3 carbons
 
 ## References
 
