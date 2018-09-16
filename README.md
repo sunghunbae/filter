@@ -27,7 +27,7 @@ Please note that an arbitrary filename "a" is given here.
 ```$ python filter.py test/test.sdf --identity ID --remove lint```
 
 Remove compounds that match LINT filters. `--identity` option is used to find a
-unique molecular name in case the first line of SDF file is blank.
+unique molecular name in case where the first line of SDF file is blank.
 If `--identity` option is omitted, it tries to guess a most suitable identity using
 the properties.
 Predefined or custom filters can be used after `--remove` or `--select` options.
@@ -38,12 +38,12 @@ A cloest matching and case insensitive fiter names are accepted.
 Remove compounds that match Inpharmatica filter and select ZINC fragment definition.
 `--remove (or -r)` and `--select (or -s)` can be used at the same time.
 
+
 ## Predefined filters
 
 Name | Description | Reference 
 ---- | ----------- | ---------
 PAINS | Pan Assay Interference Compounds (PAINS) (>150 hits)    | Baell et al. (2010)
-
 PAINSa | Pan Assay Interference Compounds (PAINS) (>150 hits)    | Baell et al. (2010)
 PAINSb | Pan Assay Interference Compounds (PAINS) (15-150 hits) | Baell et al. (2010) 
 PAINSc | Pan Assay Interference Compounds (PAINS) (<15 hits)    | Baell et al. (2010)
@@ -88,23 +88,24 @@ FCsp3 | Fraction of Sp3 carbons
 
 ## Examples of filters
 
-predefined/Baell2010_PAINS/Baell2010A.xml
-```
+`predefined/ChEMBL_Walters/Glaxo.xml`
+
+```xml
 <?xml version="1.0" ?>
-<PAINS>
-  <!--Filter Family A p.S23-->
-  <group name="(1) ene_six_het_A(483)">
-    <SMARTS>[#6]-1(-[#6](~[!#6&amp;!#1]~[#6]-[!#6&amp;!#1]-[#6]-1=[!#6&amp;!#1])~[!#6&amp;!#1])=[#6;!R]-[#1]</SMARTS>
+<Glaxo>
+  <group name="(1) R1 Reactive alkyl halides">
+    <SMARTS>[Br,Cl,I][CX4;CH,CH2]</SMARTS>
   </group>
-  <group name="(2) hzone_phenol_A(479)">
-    <SMARTS>c:1:c:c(:c(:c:c:1)-[#6]=[#7]-[#7])-[#8]-[#1]</SMARTS>
+  <group name="(2) R2 Acid halides">
+    <SMARTS>[S,C](=[O,S])[F,Br,Cl,I]</SMARTS>
   </group>
- ...
-</PAINS>
+  ...
+</Glaxo>
 ```
 
-predefined/ZINC-Lipinski.xml
-```
+`predefined/ZINC-Lipinski.xml`
+
+```xml
 <?xml version="1.0" ?>
 <ZINC-Lipinski>
   <!--definition from zinc.docking.org -->
